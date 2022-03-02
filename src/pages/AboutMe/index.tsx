@@ -1,10 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import css from "./index.css";
-import { Layout } from "../../components/layout";
-import { TypedReactHooksDemo } from "../../components/ui/typedJs";
-import { ProgressPlugin } from "webpack";
-import { CardProyects } from "../../components/ui/cards-proyects";
 
 function AboutMe() {
 	return (

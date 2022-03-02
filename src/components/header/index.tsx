@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-
+import { DesktopIcon, MobilIcon } from "../ui/buttons";
 import css from "./index.css";
-import { useNavigate, NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 let estado = false;
 
 function Header() {
@@ -33,7 +33,7 @@ function Header() {
 							{" "}
 							X
 						</button>
-						<button
+						<MobilIcon
 							className={css.mobil__links}
 							onClick={() => {
 								navigate("/");
@@ -41,8 +41,8 @@ function Header() {
 							}}
 						>
 							Menu{" "}
-						</button>
-						<button
+						</MobilIcon>
+						<MobilIcon
 							className={css.mobil__links}
 							onClick={() => {
 								navigate("/aboutme");
@@ -50,9 +50,9 @@ function Header() {
 							}}
 						>
 							Perfil
-						</button>
+						</MobilIcon>
 
-						<button
+						<MobilIcon
 							className={css.mobil__links}
 							onClick={() => {
 								navigate("/proyects");
@@ -60,8 +60,8 @@ function Header() {
 							}}
 						>
 							Proyectos
-						</button>
-						<button
+						</MobilIcon>
+						<MobilIcon
 							className={css.mobil__links}
 							onClick={() => {
 								navigate("/contacto");
@@ -69,12 +69,12 @@ function Header() {
 							}}
 						>
 							Contacto{" "}
-						</button>
+						</MobilIcon>
 					</div>
 				)}
 			</div>
 			<div className={css.links_container}>
-				<button
+				<DesktopIcon
 					className={css.links}
 					onClick={() => {
 						navigate("/aboutme");
@@ -82,9 +82,9 @@ function Header() {
 				>
 					{" "}
 					About Me{" "}
-				</button>
+				</DesktopIcon>
 
-				<button
+				<DesktopIcon
 					className={css.links}
 					onClick={() => {
 						navigate("proyects");
@@ -92,15 +92,15 @@ function Header() {
 				>
 					{" "}
 					Proyects{" "}
-				</button>
-				<button
+				</DesktopIcon>
+				<DesktopIcon
 					className={css.links}
 					onClick={() => {
 						navigate("/contacto");
 					}}
 				>
 					Contact
-				</button>
+				</DesktopIcon>
 			</div>
 		</div>
 	);

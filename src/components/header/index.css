@@ -51,14 +51,7 @@
 .mobile_menu:hover {
 	box-shadow: 0px 0px 2px 2px white;
 }
-.mobil__links {
-	background-color: transparent;
 
-	border-radius: 8px;
-	color: white;
-	font-size: 40px;
-	margin-bottom: 10px;
-}
 .home_icon {
 	background: none;
 	background-image: url("https://res.cloudinary.com/fiba06-dev/image/upload/v1645211755/dwf-m8/home_pwc1q1.png");
@@ -88,18 +81,7 @@
 	right: 10px;
 	min-width: 500px;
 }
-.links {
-	background: none;
-	border: none;
-	box-shadow: 0px 0px 4px;
-	border-radius: 8px;
-	color: white;
-	font-size: 35px;
-	margin-right: 10px;
-}
-.links:hover {
-	box-shadow: 0px 0px 2px 2px white;
-}
+
 @media (min-width: 1080px) {
 	.mobile_menu {
 		display: none;

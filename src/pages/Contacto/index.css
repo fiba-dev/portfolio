@@ -28,11 +28,15 @@
 	height: 30px;
 	margin-bottom: 10px;
 	border-radius: 10px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .input2 {
 	height: 60px;
 	border-radius: 10px;
 	margin-bottom: 10px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .button {
 	height: 30px;

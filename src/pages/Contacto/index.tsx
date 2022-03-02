@@ -1,10 +1,7 @@
 import React from "react";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import css from "./index.css";
-import { Layout } from "../../components/layout";
-import { TypedReactHooksDemo } from "../../components/ui/typedJs";
-import { ProgressPlugin } from "webpack";
-import { CardProyects } from "../../components/ui/cards-proyects";
+
 import { sendInfo } from "../../hooks";
 function Contacto() {
 	const navigate = useNavigate();
