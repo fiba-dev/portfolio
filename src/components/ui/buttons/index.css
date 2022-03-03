@@ -7,21 +7,28 @@
 .desktop__button {
 	background: none;
 	border: none;
-	box-shadow: 0px 0px 4px;
+
+	box-shadow: 0px 0px 2px 2px white;
 	border-radius: 8px;
 	color: white;
 	font-size: 35px;
 	margin-right: 10px;
+	font-family: "Courier New", Courier, monospace;
 }
 
-.desktop__button {
-	box-shadow: 0px 0px 2px 2px white;
+.desktop__button:hover {
+	box-shadow: 0px 0px 4px 4px white;
 }
 .mobil__button {
 	background-color: transparent;
+	font-family: "Courier New", Courier, monospace;
 
 	border-radius: 8px;
 	color: white;
 	font-size: 40px;
 	margin-bottom: 10px;
+	box-shadow: 0px 0px 2px 2px white;
+}
+.mobil__button:hover {
+	box-shadow: 0px 0px 4px 4px white;
 }

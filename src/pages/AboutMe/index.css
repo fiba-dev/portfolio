@@ -3,7 +3,11 @@
 	flex-direction: column;
 	color: white;
 	align-items: center;
-	height: 81vh;
+	height: 80vh;
+	width: 98vw;
+}
+.column {
+	max-width: 350px;
 }
 .container__column {
 	display: flex;
@@ -15,7 +19,7 @@
 .cv {
 	margin-top: 20px;
 	border: none;
-	box-shadow: 0px 0px 2px;
+	box-shadow: 0px 0px 2px 2px white;
 	color: white;
 	text-decoration: none;
 	font-size: 20px;
@@ -23,6 +27,9 @@
 	width: 40vw;
 	height: 5vh;
 	border-radius: 10px;
+}
+.cv:hover {
+	box-shadow: 0px 0px 4px 4px white;
 }
 .cv__link {
 	text-decoration: none;
@@ -55,5 +62,9 @@
 		align-items: center;
 		margin-left: 30px;
 		font-size: 20px;
+		max-width: 60vw;
+	}
+	.cv {
+		max-width: 30vw;
 	}
 }
