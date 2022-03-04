@@ -36,7 +36,7 @@
 	display: flex;
 	flex-direction: column;
 	max-width: 350px;
-
+	margin-bottom: 20px;
 	animation-name: minToMax;
 	animation-duration: 1s;
 }
@@ -47,8 +47,9 @@
 	align-items: center;
 	text-align: center;
 }
-.cv {
-	margin-top: 20px;
+.cv__link {
+	padding: 10px;
+
 	border: none;
 	box-shadow: 0px 0px 2px 2px white;
 	color: white;
@@ -56,17 +57,16 @@
 	font-size: 20px;
 	background-color: transparent;
 	width: 40vw;
-	height: 5vh;
+
 	border-radius: 10px;
 	animation-name: botToTop;
 	animation-duration: 1s;
 }
-.cv:hover {
+
+.cv__link:hover {
+	background-color: white;
+	color: black;
 	box-shadow: 0px 0px 4px 4px white;
-}
-.cv__link {
-	text-decoration: none;
-	color: white;
 }
 @media (min-width: 1080px) {
 	.container {
@@ -80,7 +80,7 @@
 	}
 	.titulo {
 		color: white;
-		font-size: 35px;
+		font-size: 55px;
 	}
 	.container__column {
 		display: flex;
@@ -99,7 +99,8 @@
 		animation-name: topToBot;
 		animation-duration: 1s;
 	}
-	.cv {
+	.cv__link {
 		max-width: 30vw;
+		font-size: 30px;
 	}
 }
