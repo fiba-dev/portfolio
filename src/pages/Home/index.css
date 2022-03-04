@@ -28,6 +28,12 @@ body {
 	height: 400px;
 	width: 350px;
 	text-align: center;
+	background: -webkit-linear-gradient(
+		top,
+		rgba(255, 255, 255, 0.1),
+		rgba(255, 255, 255, 0.1)
+	);
+	border-radius: 10px;
 }
 @media (min-width: 1080px) {
 	.home__name__div {

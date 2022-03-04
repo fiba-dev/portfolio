@@ -5,7 +5,12 @@
 }
 
 .desktop__button {
-	background: none;
+	background: -webkit-linear-gradient(
+		top,
+		rgba(255, 255, 255, 0.2),
+		rgba(255, 255, 255, 0.2)
+	);
+
 	border: none;
 
 	box-shadow: 0px 0px 2px 2px white;

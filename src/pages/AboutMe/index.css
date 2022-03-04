@@ -39,6 +39,12 @@
 	margin-bottom: 20px;
 	animation-name: minToMax;
 	animation-duration: 1s;
+	background: -webkit-linear-gradient(
+		top,
+		rgba(255, 255, 255, 0.1),
+		rgba(255, 255, 255, 0.1)
+	);
+	border-radius: 10px;
 }
 .container__column {
 	display: flex;
@@ -86,7 +92,7 @@
 		display: flex;
 		flex-direction: column;
 		align-content: flex-end;
-		width: 80vw;
+		width: 70vw;
 		justify-content: space-between;
 	}
 	.column {
