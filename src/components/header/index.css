@@ -3,7 +3,6 @@
 	flex-direction: row;
 
 	height: 90px;
-	width: 95vw;
 }
 
 .ventana {
@@ -39,6 +38,7 @@
 	box-shadow: 0px 0px 4px 4px white;
 }
 .mobile_menu {
+	background: none;
 	background-image: url("https://res.cloudinary.com/fiba06-dev/image/upload/v1645223823/dwf-m8/menu_xuahjq.png");
 	background-repeat: no-repeat;
 	background-position: center;

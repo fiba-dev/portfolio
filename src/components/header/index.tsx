@@ -15,12 +15,12 @@ function Header() {
 				}}
 				className={css.home_icon}
 			></button>
-			<div
+			<button
 				className={css.mobile_menu}
 				onClick={() => {
 					cambiarEstado(!estado);
 				}}
-			></div>
+			></button>
 			<div>
 				{estado && (
 					<div className={css.ventana}>

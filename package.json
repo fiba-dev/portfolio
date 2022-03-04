@@ -13,6 +13,7 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"animate.css": "^4.1.1",
 		"cross-env": "^7.0.3",
 		"css": "^3.0.0",
 		"css-loader": "^6.5.1",

@@ -17,7 +17,7 @@ function AboutMe() {
 						mayor parte del tiempo en practicar y desafiarme constantemente.
 					</text>
 				</div>
-				<div className={css.column}>
+				<div>
 					<button className={css.cv}>
 						<a
 							className={css.cv__link}

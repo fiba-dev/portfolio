@@ -17,6 +17,8 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 350px;
+	min-height: 120vh;
 }
 @media (min-width: 1180px) {
 	.home__name__div {

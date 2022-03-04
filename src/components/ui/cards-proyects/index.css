@@ -1,3 +1,32 @@
+@keyframes minToMax {
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+@keyframes BlackToWhite {
+	0% {
+		border-bottom: solid 2px white;
+		border-right: solid 2px white;
+	}
+	100% {
+		border-bottom: solid 2px black;
+		border-right: solid 2px black;
+	}
+}
+@keyframes BlackToWhite_reverse {
+	0% {
+		border-bottom: solid 2px white;
+		border-left: solid 2px white;
+	}
+	100% {
+		border-bottom: solid 2px black;
+		border-left: solid 2px black;
+	}
+}
+
 .container {
 	display: flex;
 	flex-direction: row;
@@ -6,14 +35,23 @@
 
 .div1 {
 	border-bottom: solid 2px white;
-
 	border-right: solid 2px white;
 	border-bottom-right-radius: 10px;
+	min-height: 205px;
+	animation-name: BlackToWhite;
+	animation-direction: alternate;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
 }
 .div2 {
 	border-bottom: solid 2px white;
 	border-left: solid 2px white;
 	border-bottom-left-radius: 10px;
+	min-height: 205px;
+	animation-name: BlackToWhite_reverse;
+	animation-direction: alternate;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
 }
 
 .imagen {
@@ -22,10 +60,16 @@
 	border-bottom: solid 3px black;
 	border-radius: 5px;
 	margin: 30px;
+	animation-name: minToMax;
+
+	animation-duration: 1s;
 }
 .links__container {
 	display: flex;
 	flex-direction: column;
+	animation-name: minToMax;
+
+	animation-duration: 1s;
 }
 
 .info_container {
@@ -34,11 +78,15 @@
 	justify-content: space-between;
 	align-items: center;
 }
+
 .info {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	margin-left: 2px;
+	animation-name: minToMax;
+
+	animation-duration: 1s;
 }
 .webpage__detalle {
 	font-size: 12px;
@@ -54,7 +102,6 @@
 	text-align: center;
 	box-shadow: 0px 0px 2px;
 	border: none;
-	background: none;
 }
 .informacion:hover {
 	box-shadow: 0px 0px 2px 2px white;
