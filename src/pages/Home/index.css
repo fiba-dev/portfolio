@@ -9,11 +9,9 @@
 	justify-content: center;
 }
 .robot {
-	position: fixed;
+	position: absolute;
 	z-index: -10;
 	height: 150px;
-	color: white;
-	position: left;
 }
 body {
 	font-family: "Courier New", Courier, monospace;
@@ -54,15 +52,9 @@ body {
 		text-align: center;
 		height: 400px;
 		width: 800px;
-		display: flex;
-		flex-direction: column;
-		background-color: none;
-		color: rgba(240, 248, 255, 0.5);
-		border-radius: 8px;
-		justify-content: center;
 	}
 	.robot {
-		position: fixed;
+		position: absolute;
 		z-index: -10;
 		height: 250px;
 		color: white;

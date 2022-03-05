@@ -53,6 +53,13 @@
 	align-items: center;
 	text-align: center;
 }
+.robot {
+	position: absolute;
+	z-index: -10;
+	height: 150px;
+	left: 0px;
+	bottom: 0px;
+}
 .cv__link {
 	padding: 10px;
 
@@ -94,6 +101,12 @@
 		align-content: flex-end;
 		width: 70vw;
 		justify-content: space-between;
+	}
+	.robot {
+		position: absolute;
+		left: 0px;
+		height: 350px;
+		bottom: 0px;
 	}
 	.column {
 		flex-direction: column;

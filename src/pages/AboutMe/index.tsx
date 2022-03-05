@@ -4,6 +4,10 @@ import css from "./index.css";
 function AboutMe() {
 	return (
 		<div className={css.container}>
+			<img
+				className={css.robot}
+				src="https://res.cloudinary.com/fiba06-dev/image/upload/v1646516872/portfolio/robot_2_fga3vu.png"
+			></img>
 			<h1 className={css.titulo}>Sobre mi</h1>
 			<div className={css.container__column}>
 				<div className={css.column}>
