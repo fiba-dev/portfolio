@@ -13,10 +13,12 @@
 		color: white;
 		font-size: 55px;
 		font-weight: bold;
+		height: 55px;
 	}
 	.letra2 {
 		color: white;
 		font-size: 45px;
+		height: 45px;
 		font-weight: 500;
 	}
 }

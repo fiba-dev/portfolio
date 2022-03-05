@@ -8,6 +8,13 @@
 	justify-items: center;
 	justify-content: center;
 }
+.robot {
+	position: fixed;
+	z-index: -10;
+	height: 150px;
+	color: white;
+	position: left;
+}
 body {
 	font-family: "Courier New", Courier, monospace;
 	background-size: cover;
@@ -24,7 +31,14 @@ body {
 	color: whitesmoke;
 	font-size: 45px;
 }
+.typed {
+	height: 150px;
+}
 .home__name__div {
+	display: flex;
+	flex-direction: column;
+	background-color: none;
+	justify-content: center;
 	height: 400px;
 	width: 350px;
 	text-align: center;
@@ -40,9 +54,21 @@ body {
 		text-align: center;
 		height: 400px;
 		width: 800px;
+		display: flex;
+		flex-direction: column;
 		background-color: none;
 		color: rgba(240, 248, 255, 0.5);
-
 		border-radius: 8px;
+		justify-content: center;
+	}
+	.robot {
+		position: fixed;
+		z-index: -10;
+		height: 250px;
+		color: white;
+		position: left;
+	}
+	.typed {
+		height: 500px;
 	}
 }

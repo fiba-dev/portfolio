@@ -35,8 +35,8 @@ export function Particulas(props) {
 						value: "#ffffff",
 					},
 					links: {
-						color: "#ffffff",
-						distance: 30,
+						color: "#D184F2",
+						distance: 100,
 						enable: true,
 						opacity: 0.5,
 						width: 1,
