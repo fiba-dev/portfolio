@@ -6,8 +6,7 @@ import { Home } from "./pages/Home/home";
 import { RecoilRoot } from "recoil";
 import { Header } from "./components/header";
 import { css } from "./index.css";
-
-console.log("soy el boton");
+import { Particulas } from "./components/ui/particles";
 
 class index extends React.Component<any, any> {
 	constructor(props) {
@@ -24,6 +23,7 @@ ReactDOM.render(
 	<Suspense fallback={null}>
 		<RecoilRoot>
 			<BrowserRouter>
+				<Particulas> </Particulas>
 				<AppRoutes />
 			</BrowserRouter>
 		</RecoilRoot>

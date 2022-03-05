@@ -4,7 +4,7 @@ import css from "./index.css";
 import { Layout } from "../../components/layout";
 import { AboutMe } from "../AboutMe";
 import { TypedReactHooksDemo } from "../../components/ui/typedJs";
-
+import { Particulas } from "../../components/ui/particles";
 function Home() {
 	return (
 		<div className={css.main}>
