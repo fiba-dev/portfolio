@@ -10,7 +10,7 @@ function Home() {
 		<div className={css.main}>
 			<div className={css.container}>
 				<div className={css.home__name__div}>
-					<h1 className={css.titulo}>¡HOLA A TODOS!</h1>
+					<h1 className={css.titulo}>¡Hello World!</h1>
 					<TypedReactHooksDemo velocidad={30} clase={"letra"} loop={false}>
 						Soy Francisco
 					</TypedReactHooksDemo>
