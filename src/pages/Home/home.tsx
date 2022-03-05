@@ -17,7 +17,7 @@ function Home() {
 					<h1 className={css.titulo}>¡Hello World!</h1>
 					<div className={css.typed}>
 						<TypedReactHooksDemo velocidad={30} clase={"letra"} loop={false}>
-							Soy Francisco
+							Soy Fran
 						</TypedReactHooksDemo>
 						<TypedReactHooksDemo
 							velocidad={20}
