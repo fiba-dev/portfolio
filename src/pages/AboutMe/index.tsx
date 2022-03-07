@@ -14,11 +14,11 @@ function AboutMe() {
 					<h1>Soy Francisco Ibarrola</h1>
 					<text>
 						{" "}
-						Soy una persona apasionada por la tecnologia, con una motivacion
-						constante por aprender cosas nuevas y mejorar. comence nuevamente
-						con la programacion a principios del 2020, y por el mes de marzo
-						ingrese a un curso de 12 modulos fullstack en apx donde invierto la
-						mayor parte del tiempo en practicar y desafiarme constantemente.
+						Soy una persona muy apasionada por la tecnología, en el año 2010
+						obtuve una base solida sobre los fundamentos de la programación.
+						desde el año 2020 comencé con videos de YouTube acerca de JavaScript
+						y en enero del 2021 con un curso de full-stack. Actualmente en 2022
+						considero que me encuentro capacitado para afrontar nuevos desafíos
 					</text>
 				</div>
 				<a
