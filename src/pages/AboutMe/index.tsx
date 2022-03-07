@@ -23,7 +23,7 @@ function AboutMe() {
 				</div>
 				<a
 					className={css.cv__link}
-					href="https://drive.google.com/uc?export=download&id=1JlevkGly9Ddu6V-oBWpmyPwFrkD0Jrro"
+					href="https://drive.google.com/uc?export=download&id=1xtU4JfywLBZbjl5KtRzPISEhHD3GrSHn"
 				>
 					CURRICULUM
 				</a>{" "}
