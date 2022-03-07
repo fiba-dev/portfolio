@@ -62,7 +62,7 @@
 
 .home_icon {
 	background: none;
-	background-image: url("https://res.cloudinary.com/fiba06-dev/image/upload/v1645211755/dwf-m8/home_pwc1q1.png");
+	background-image: url("https://res.cloudinary.com/fiba06-dev/image/upload/v1646670378/portfolio/home_pwc1q1-min_kc9kfc.png");
 
 	background-repeat: no-repeat;
 	background-position: center;
@@ -83,7 +83,7 @@
 	color: black;
 	box-shadow: 0px 0px 4px 4px white;
 }
-/* background-image: url("https://res.cloudinary.com/fiba06-dev/image/upload/v1645213400/dwf-m8/redhouse_u7r6y6.png"); */
+
 .links_container {
 	position: fixed;
 	display: none;

@@ -11,26 +11,51 @@ function Proyectos() {
 		{
 			key: 1,
 			pictureURL:
-				"https://res.cloudinary.com/fiba06-dev/image/upload/v1645216294/dwf-m8/searchpet_ovefc7.jpg",
-			info: " Se trabajo con React, se utilizo algolia, Mabpox, Dropzone,Cloudinary ",
-			GitHub: "https://github.com/fiba-dev/dwf-m8.git",
-			webPage: "https://dwf-m8-fiba-dev.web.app/",
+				"https://res.cloudinary.com/fiba06-dev/image/upload/v1646669861/portfolio/modulo4_por71k.jpg",
+			info: " Primera pagina con diseño responsive, utilizando datos randoms administrados desde contentful, y enviando request para poder utilizar el formulario de contacto",
+			GitHub: "https://github.com/fiba-dev/desafio-final-m4.git",
+			webPage: "https://fiba-dev.github.io/desafio-final-m4/",
 		},
 		{
 			key: 2,
 			pictureURL:
-				"https://res.cloudinary.com/fiba06-dev/image/upload/v1645459311/dwf-m8/modulo7_c8ysny.jpg",
-			info: " Se trabajo con React, se utilizo algolia, Mabpox, Dropzone,Cloudinary ",
-			GitHub: "https://github.com/fiba-dev/dwf-m8.git",
-			webPage: "https://dwf-m8-fiba-dev.web.app/",
+				"https://res.cloudinary.com/fiba06-dev/image/upload/v1646669867/portfolio/piedra-papel-tijera-maquina_xqgiio.jpg",
+			info: " Se trabajo con la arquitectura web pages-components, estado, Router y Parcel. ",
+			GitHub: "https://fiba-dev.github.io/dwf-m5-parcel-server/",
+			webPage: "https://github.com/fiba-dev/dwf-m5-parcel-server.git/",
 		},
 		{
 			key: 3,
 			pictureURL:
-				"https://res.cloudinary.com/fiba06-dev/image/upload/v1645459311/dwf-m8/modulo7_c8ysny.jpg",
-			info: " Se trabajo con React, se utilizo algolia, Mabpox, Dropzone,Cloudinary ",
+				"https://res.cloudinary.com/fiba06-dev/image/upload/v1646669873/portfolio/piedra-papel-tijera-multi_1_uc3cxa.jpg",
+			info: " Se creo el Juego de Piedra Papel o Tijera multijugador, usando firebase, Realtime DB, express y documentando en postman. ",
+			GitHub: "https://github.com/fiba-dev/m6-desafio-final.git",
+			webPage: "https://m6-desafio-final.herokuapp.com/",
+		},
+		{
+			key: 4,
+			pictureURL:
+				"https://res.cloudinary.com/fiba06-dev/image/upload/v1646669817/portfolio/modulo7_c8ysny_1_ivpwbm.jpg",
+			info: " Se hizo enfoque en el backend, aplicando estructura MVC, añadiendo librerias como SendGrid, Algolia, Cloudinary, Mapbox. ",
+			GitHub: "https://github.com/fiba-dev/m7-final.git",
+			webPage: "https://m7-final.herokuapp.com/",
+		},
+		{
+			key: 5,
+			pictureURL:
+				"https://res.cloudinary.com/fiba06-dev/image/upload/v1646669934/portfolio/modulo8_1_uyaz6f.jpg",
+			info: " Se trabajo con React,utilizando el un backend ya armado, tambien utilizando Algolia, Mapbox, dividiendo en capas, como componentes UI y hooks.  ",
 			GitHub: "https://github.com/fiba-dev/dwf-m8.git",
 			webPage: "https://dwf-m8-fiba-dev.web.app/",
+		},
+
+		{
+			key: 6,
+			pictureURL:
+				"https://res.cloudinary.com/fiba06-dev/image/upload/v1646669880/portfolio/portfolio_1_qsvyjd.jpg",
+			info: " Se trabajo con React, tiene componentes,ui, y la llamada correspondiente para enviar un email para contactar. ",
+			GitHub: "https://github.com/fiba-dev/portfolio.git",
+			webPage: "https://portfolio-f9b95.firebaseapp.com/",
 		},
 	];
 

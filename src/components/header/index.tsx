@@ -81,7 +81,7 @@ function Header() {
 					}}
 				>
 					{" "}
-					About Me{" "}
+					Perfil{" "}
 				</DesktopIcon>
 
 				<DesktopIcon
@@ -91,7 +91,7 @@ function Header() {
 					}}
 				>
 					{" "}
-					Proyects{" "}
+					Proyectos{" "}
 				</DesktopIcon>
 				<DesktopIcon
 					className={css.links}
@@ -99,7 +99,7 @@ function Header() {
 						navigate("/contacto");
 					}}
 				>
-					Contact
+					Contacto
 				</DesktopIcon>
 			</div>
 		</div>

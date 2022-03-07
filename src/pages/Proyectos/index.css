@@ -12,6 +12,7 @@
 
 .titulo {
 	color: white;
+	text-align: center;
 }
 .home__name__div {
 	display: flex;

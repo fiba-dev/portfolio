@@ -6,7 +6,7 @@ function AboutMe() {
 		<div className={css.container}>
 			<img
 				className={css.robot}
-				src="https://res.cloudinary.com/fiba06-dev/image/upload/v1646516872/portfolio/robot_2_fga3vu.png"
+				src="https://res.cloudinary.com/fiba06-dev/image/upload/v1646670365/portfolio/robot_2_1_yrfc1h.png"
 			></img>
 			<h1 className={css.titulo}>Sobre mi</h1>
 			<div className={css.container__column}>
@@ -23,7 +23,7 @@ function AboutMe() {
 				</div>
 				<a
 					className={css.cv__link}
-					href="https://drive.google.com/uc?export=download&id=1NIWvuAx9wJi3ZNUEPV15NNHFiu9P2kUC"
+					href="https://drive.google.com/uc?export=download&id=1JlevkGly9Ddu6V-oBWpmyPwFrkD0Jrro"
 				>
 					CURRICULUM
 				</a>{" "}
