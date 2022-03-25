@@ -9,6 +9,18 @@
 		"dev": "cross-env NODE_ENV=development webpack",
 		"start": "live-server"
 	},
+	"ava": {
+		"nodeArguments": [
+			"--loader=esbuild-node-loader",
+			"--experimental-specifier-resolution=node"
+		],
+		"environmentVariables": {
+			"TESTING": "true"
+		},
+		"extensions": {
+			"ts": "module"
+		}
+	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",

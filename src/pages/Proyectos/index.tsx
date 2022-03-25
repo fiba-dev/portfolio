@@ -9,6 +9,7 @@ import { CardProyects } from "../../components/ui/cards-proyects";
 function Proyectos() {
 	const proyectos = [
 		{
+			title: "Modelo Portfolio",
 			key: 1,
 			pictureURL:
 				"https://res.cloudinary.com/fiba06-dev/image/upload/v1646669861/portfolio/modulo4_por71k.jpg",
@@ -17,6 +18,7 @@ function Proyectos() {
 			webPage: "https://fiba-dev.github.io/desafio-final-m4/",
 		},
 		{
+			title: "Piedra-Papel-Tijeta vs Maquina",
 			key: 2,
 			pictureURL:
 				"https://res.cloudinary.com/fiba06-dev/image/upload/v1646669867/portfolio/piedra-papel-tijera-maquina_xqgiio.jpg",
@@ -25,6 +27,7 @@ function Proyectos() {
 			webPage: "https://github.com/fiba-dev/dwf-m5-parcel-server.git/",
 		},
 		{
+			title: "Piedra-Papel-Tijeta Multijugador Online",
 			key: 3,
 			pictureURL:
 				"https://res.cloudinary.com/fiba06-dev/image/upload/v1646669873/portfolio/piedra-papel-tijera-multi_1_uc3cxa.jpg",
@@ -33,6 +36,7 @@ function Proyectos() {
 			webPage: "https://m6-desafio-final.herokuapp.com/",
 		},
 		{
+			title: "Reportar Mascotas Perdidas",
 			key: 4,
 			pictureURL:
 				"https://res.cloudinary.com/fiba06-dev/image/upload/v1646669817/portfolio/modulo7_c8ysny_1_ivpwbm.jpg",
@@ -41,6 +45,7 @@ function Proyectos() {
 			webPage: "https://m7-final.herokuapp.com/",
 		},
 		{
+			title: "Reportar Mascotas Perdidas 2",
 			key: 5,
 			pictureURL:
 				"https://res.cloudinary.com/fiba06-dev/image/upload/v1646669934/portfolio/modulo8_1_uyaz6f.jpg",
@@ -50,6 +55,7 @@ function Proyectos() {
 		},
 
 		{
+			title: "Portfolio",
 			key: 6,
 			pictureURL:
 				"https://res.cloudinary.com/fiba06-dev/image/upload/v1646669880/portfolio/portfolio_1_qsvyjd.jpg",
@@ -66,6 +72,7 @@ function Proyectos() {
 			<div className={css.home__name__div}>
 				{proyectos.map((r, index) => (
 					<CardProyects
+						title={r.title}
 						pictureURL={r.pictureURL}
 						info={r.info}
 						GitHub={r.GitHub}
