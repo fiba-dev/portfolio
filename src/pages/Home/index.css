@@ -16,13 +16,7 @@
 body {
 	font-family: "Courier New", Courier, monospace;
 	background-size: cover;
-
-	background-image: -webkit-linear-gradient(
-			top,
-			rgba(0, 0, 0, 0.7),
-			rgba(0, 0, 0, 0.7)
-		),
-		url("https://res.cloudinary.com/fiba06-dev/image/upload/v1646263927/portfolio/WhatsApp_Image_2022-03-02_at_6.34.30_PM_ua3eys.jpg");
+	background-color: rgb(100, 149, 255);
 }
 
 .titulo {

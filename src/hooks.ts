@@ -2,7 +2,6 @@ import react from "react";
 
 import { API_URL } from "./apiURL";
 
-
 export async function sendInfo(params) {
 	const res = await fetch(API_URL + "/contact", {
 		method: "post",
