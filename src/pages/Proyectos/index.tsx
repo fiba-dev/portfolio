@@ -18,7 +18,7 @@ function Proyectos() {
 			webPage: "https://fiba-dev.github.io/desafio-final-m4/",
 		},
 		{
-			title: "Piedra-Papel-Tijeta vs Maquina",
+			title: "Piedra-Papel-Tijera vs Maquina",
 			key: 2,
 			pictureURL:
 				"https://res.cloudinary.com/fiba06-dev/image/upload/v1646669867/portfolio/piedra-papel-tijera-maquina_xqgiio.jpg",
@@ -27,7 +27,7 @@ function Proyectos() {
 			webPage: "https://github.com/fiba-dev/dwf-m5-parcel-server.git/",
 		},
 		{
-			title: "Piedra-Papel-Tijeta Multijugador Online",
+			title: "Piedra-Papel-Tijera Multijugador Online",
 			key: 3,
 			pictureURL:
 				"https://res.cloudinary.com/fiba06-dev/image/upload/v1646669873/portfolio/piedra-papel-tijera-multi_1_uc3cxa.jpg",

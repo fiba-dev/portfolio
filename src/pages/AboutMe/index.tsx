@@ -18,7 +18,7 @@ function AboutMe() {
 						obtuve una base solida sobre los fundamentos de la programación.
 						desde el año 2020 comencé con videos de YouTube acerca de JavaScript
 						y en enero del 2021 con un curso de full-stack. Actualmente en 2022
-						considero que me encuentro capacitado para afrontar nuevos desafíos
+						me encuentro capacitado para afrontar nuevos desafíos
 					</text>
 				</div>
 				<a
