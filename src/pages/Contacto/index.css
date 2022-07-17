@@ -1,177 +1,179 @@
 @keyframes minToMax {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1);
+	}
 }
 .robot {
-  position: absolute;
-  z-index: -10;
-  height: 150px;
-  left: 0px;
-  bottom: 0px;
+	position: absolute;
+	z-index: -10;
+	height: 150px;
+	left: 0px;
+	bottom: 0px;
 }
 .icons {
-  height: 150px;
-  width: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	height: 150px;
+	width: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .whatsapp {
-  height: 80px;
-  width: 70px;
+	height: 80px;
+	width: 70px;
 }
 .whatsapp:hover {
-  height: 110px;
-  width: 100px;
+	height: 110px;
+	width: 100px;
 }
 .linkedin {
-  height: 70px;
-  align-items: center;
+	height: 70px;
+	align-items: center;
 }
 .linkedin:hover {
-  height: 100px;
+	height: 100px;
 }
 .gmail {
-  height: 70px;
-  width: 75px;
+	height: 70px;
+	width: 75px;
 }
 .gmail:hover {
-  height: 95px;
-  width: 100px;
+	height: 95px;
+	width: 100px;
 }
 
 .container {
-  height: 80vh;
-  width: 98vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  color: aliceblue;
+	height: 90vh;
+	width: 98vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	color: whitesmoke;
+	margin-top: 60px;
 }
 .div__form {
-  background: -webkit-linear-gradient(
-    top,
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0.1)
-  );
-  box-shadow: 0px 0px 2px white;
-  width: 90vw;
-  height: 58vh;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  animation-name: minToMax;
-  animation-duration: 1s;
-  justify-content: space-around;
+	background: -webkit-linear-gradient(
+		top,
+		rgba(255, 255, 255, 0.1),
+		rgba(255, 255, 255, 0.1)
+	);
+	box-shadow: 0px 0px 2px white;
+	width: 90vw;
+	height: 50vh;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	animation-name: minToMax;
+	animation-duration: 1s;
+	justify-content: space-around;
 }
 
 .input {
-  height: 30px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	height: 30px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .form {
-  height: 70vh;
-  width: 80vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  animation-duration: 3s;
+	height: 70vh;
+	width: 80vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	animation-duration: 3s;
 }
 .titulo {
-  animation-name: minToMax;
-  animation-duration: 1s;
+	animation-name: minToMax;
+	animation-duration: 1s;
 }
 
 .input2 {
-  height: 60px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	height: 60px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .button {
-  height: 30px;
-  background-color: transparent;
-  box-shadow: 0px 0px 2px;
-  color: white;
-  border-radius: 10px;
-  border: none;
-  font-size: 20px;
+	height: 30px;
+	background-color: transparent;
+	box-shadow: 0px 0px 2px;
+	color: white;
+	border-radius: 10px;
+	border: none;
+	font-size: 20px;
 }
 button:hover {
-  background-color: white;
-  color: black;
-  box-shadow: 0px 0px 1px 1px white;
+	background-color: white;
+	color: black;
+	box-shadow: 0px 0px 1px 1px white;
 }
 .titulo {
-  color: white;
+	color: whitesmoke;
+	font-size: 45px;
 }
 
 .column {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 @media (min-width: 1080px) {
-  .container {
-    justify-content: center;
-  }
-  .titulo {
-    font-size: 50px;
-  }
-  .robot {
-    position: absolute;
-    left: 100px;
-    height: 350px;
-    bottom: 0px;
-  }
+	.container {
+		justify-content: center;
+	}
+	.titulo {
+		font-size: 60px;
+	}
+	.robot {
+		position: absolute;
+		left: 5px;
+		height: 350px;
+		bottom: 0px;
+	}
 
-  .div__form {
-    box-shadow: 0px 0px 2px #d184f2;
-    width: 40vw;
-    height: 50vh;
-    display: flex;
-    border-radius: 10px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-size: 40px;
-  }
-  .icons {
-    height: 300px;
-    width: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .whatsapp {
-    height: 160px;
-    width: 140px;
-  }
-  .whatsapp:hover {
-    height: 220px;
-    width: 200px;
-  }
-  .linkedin {
-    height: 140px;
-  }
-  .linkedin:hover {
-    height: 200px;
-  }
-  .gmail {
-    height: 140px;
-    width: 150px;
-  }
-  .gmail:hover {
-    height: 190px;
-    width: 200px;
-  }
+	.div__form {
+		box-shadow: 0px 0px 2px #d184f2;
+		width: 65vw;
+		height: 50vh;
+		display: flex;
+		border-radius: 10px;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		font-size: 40px;
+	}
+	.icons {
+		height: 300px;
+		width: 350px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.whatsapp {
+		height: 160px;
+		width: 140px;
+	}
+	.whatsapp:hover {
+		height: 220px;
+		width: 200px;
+	}
+	.linkedin {
+		height: 140px;
+	}
+	.linkedin:hover {
+		height: 200px;
+	}
+	.gmail {
+		height: 140px;
+		width: 150px;
+	}
+	.gmail:hover {
+		height: 190px;
+		width: 200px;
+	}
 }

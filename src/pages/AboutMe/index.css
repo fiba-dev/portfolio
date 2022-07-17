@@ -29,7 +29,8 @@
 	flex-direction: column;
 	color: white;
 	align-items: center;
-	height: 80vh;
+	justify-content: center;
+	height: 85vh;
 	width: 98vw;
 }
 .column {
@@ -46,6 +47,10 @@
 	);
 	border-radius: 10px;
 }
+.titulo {
+	color: white;
+	font-size: 45px;
+}
 .container__column {
 	display: flex;
 	flex-direction: column;
@@ -57,7 +62,7 @@
 	position: absolute;
 	z-index: -10;
 	height: 150px;
-	left: 0px;
+	right: 0px;
 	bottom: 0px;
 }
 .cv__link {
@@ -93,7 +98,7 @@
 	}
 	.titulo {
 		color: white;
-		font-size: 55px;
+		font-size: 60px;
 	}
 	.container__column {
 		display: flex;
@@ -104,7 +109,7 @@
 	}
 	.robot {
 		position: absolute;
-		left: 0px;
+		right: 0px;
 		height: 350px;
 		bottom: 0px;
 	}

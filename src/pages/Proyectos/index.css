@@ -2,17 +2,22 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	min-height: 80vh;
-	width: 95vw;
+	justify-content: center;
+	min-height: 100vh;
+	width: 100vw;
+	margin-top: 60px;
 }
 /* width */
 ::-webkit-scrollbar {
 	display: none;
 }
-
+.imagen {
+	display: none;
+}
 .titulo {
-	color: white;
+	color: whitesmoke;
 	text-align: center;
+	font-size: 45px;
 }
 .home__name__div {
 	display: flex;
@@ -30,7 +35,14 @@
 		justify-content: center;
 	}
 	.titulo {
-		color: white;
-		font-size: 55px;
+		color: whitesmoke;
+		font-size: 60px;
+	}
+	.imagen {
+		display: block;
+		position: fixed;
+		bottom: 0px;
+		right: 0px;
+		height: 280px;
 	}
 }

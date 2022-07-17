@@ -1,5 +1,5 @@
 .container {
-	min-height: 80vh;
+	min-height: 100vh;
 	min-width: 98vw;
 
 	display: flex;
@@ -56,5 +56,9 @@ body {
 	}
 	.typed {
 		height: 500px;
+	}
+	.titulo {
+		color: whitesmoke;
+		font-size: 60px;
 	}
 }
