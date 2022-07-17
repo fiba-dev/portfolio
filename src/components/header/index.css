@@ -2,7 +2,7 @@
 	display: flex;
 	flex-direction: row;
 
-	background-color: rgb(100, 149, 255);
+	background-color: rgba(35, 35, 35, 1);
 	height: 60px;
 	width: 100%;
 	position: fixed;
@@ -21,7 +21,7 @@
 	z-index: 1;
 	transition: all 0.3s ease;
 	background-repeat: no-repeat;
-	background-color: rgba(21, 94, 250, 0.9);
+	background-color: rgba(35, 35, 35, 1);
 	background-size: contain;
 
 	align-items: center;

@@ -23,16 +23,29 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 350px;
 	min-height: 120vh;
+	gap: 30px;
+	width: 100vw;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	padding: 40px 0 40px 0;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	/* @media(min-width: 1390px) {
+		grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+	} */
 }
-@media (min-width: 1180px) {
+@media (min-width: 1080px) and (min-height: 500px) {
 	.home__name__div {
 		flex-direction: row;
-		width: 1080px;
-		flex-wrap: wrap;
-		align-content: center;
-		justify-content: center;
+
+		gap: 30px;
+		width: 70vw;
+		display: grid;
+		align-items: center;
+		justify-items: center;
+		padding: 40px 0 40px 0px;
+		grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
 	}
 	.titulo {
 		color: whitesmoke;

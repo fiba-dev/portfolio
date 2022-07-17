@@ -16,7 +16,7 @@
 body {
 	font-family: "Courier New", Courier, monospace;
 	background-size: cover;
-	background-color: rgb(100, 149, 255);
+	background-color: rgba(35, 35, 35, 1);
 }
 
 .titulo {

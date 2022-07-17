@@ -49,6 +49,10 @@
 	animation-duration: 1s;
 	animation-iteration-count: infinite;
 	overflow: hidden;
+	box-shadow: 2px 2px 5px #999;
+	-webkit-box-shadow: 2px 2px 5px #999;
+	-moz-box-shadow: 2px 2px 5px #999;
+	border-radius: 15px;
 }
 .card_back {
 	transform: perspective(600px) rotateY(180deg);
@@ -74,6 +78,10 @@
 .card:hover .card_back {
 	transform: perspective(600px) rotateY(360deg);
 	transition: 0.5s;
+	-webkit-box-shadow: 2px 2px 5px #999;
+	-moz-box-shadow: 2px 2px 5px #999;
+	box-shadow: 2px 2px 5px #999;
+	border-radius: 15px;
 }
 /* .div1 {
 	border-bottom-right-radius: 10px;
