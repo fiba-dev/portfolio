@@ -33,7 +33,7 @@ function Home() {
 							clase={"letra2"}
 							loop={true}
 						>
-							Javascript React Css Html Typescript Firebase Postman
+							React.js Css Html Typescript Firebase Vercel Postman Scrum Github
 						</TypedReactHooksDemo>
 					</div>
 				</div>
