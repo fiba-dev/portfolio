@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom";
 import React, { Suspense } from "react";
-import { AppRoutes } from "./router/index";
+
 import { BrowserRouter } from "react-router-dom";
 import { Home } from "./pages/Home/home";
 import { RecoilRoot } from "recoil";
@@ -23,7 +23,8 @@ ReactDOM.render(
   <Suspense fallback={null}>
     <RecoilRoot>
       <BrowserRouter>
-        <AppRoutes />
+        <Header></Header>
+        <Home></Home>
       </BrowserRouter>
     </RecoilRoot>
   </Suspense>,
