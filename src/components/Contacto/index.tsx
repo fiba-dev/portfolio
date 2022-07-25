@@ -5,15 +5,12 @@ import css from "./index.css";
 import { TypedReactHooksDemo } from "../ui/typedJs";
 function Contacto() {
 	return (
-		<div className={css.container} id="contacto">
-			<TypedReactHooksDemo
-				velocidad={50}
-				loop={false}
-				className={css.titulo}
-				class="letra3"
-			>
-				Contacto
-			</TypedReactHooksDemo>
+		<div className={css.container_contacto} id="contacto">
+			<div className={css.titulo}>
+				<TypedReactHooksDemo velocidad={50} loop={false} class="letra3">
+					Contacto
+				</TypedReactHooksDemo>
+			</div>
 			<div className={css.div__form}>
 				<a
 					href=" https://wa.me/+5491133180059"
