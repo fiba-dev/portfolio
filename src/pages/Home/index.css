@@ -1,3 +1,14 @@
+body {
+	font-family: "Courier New", Courier, monospace;
+	background-size: cover;
+	background-color: rgba(15, 15, 15, 1);
+	margin: 0px;
+	padding: 0px;
+}
+.main {
+	padding: 0px;
+}
+
 .container {
 	min-height: 100vh;
 	min-width: 98vw;
@@ -13,11 +24,6 @@
 	z-index: -10;
 	height: 150px;
 }
-body {
-	font-family: "Courier New", Courier, monospace;
-	background-size: cover;
-	background-color: rgba(35, 35, 35, 1);
-}
 
 .titulo {
 	color: whitesmoke;
@@ -30,14 +36,14 @@ body {
 	display: flex;
 	flex-direction: column;
 	background-color: none;
-	justify-content: center;
+	justify-content: space-around;
 	height: 400px;
 	width: 350px;
 	text-align: center;
 	background: -webkit-linear-gradient(
 		top,
-		rgba(255, 255, 255, 0.1),
-		rgba(255, 255, 255, 0.1)
+		rgba(255, 255, 255, 0.2),
+		rgba(255, 255, 255, 0.2)
 	);
 	border-radius: 10px;
 }

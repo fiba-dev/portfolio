@@ -5,16 +5,20 @@ function Button(props) {
 }
 function DesktopIcon(props) {
 	return (
-		<button className={css.desktop__button} onClick={props.onClick}>
+		<a
+			className={css.desktop__button}
+			href={props.href}
+			onClick={props.onClick}
+		>
 			{props.children}
-		</button>
+		</a>
 	);
 }
 function MobilIcon(props) {
 	return (
-		<button className={css.mobil__button} onClick={props.onClick}>
+		<a className={css.mobil__button} onClick={props.onClick} href={props.href}>
 			{props.children}
-		</button>
+		</a>
 	);
 }
 function CurriculumButton(props) {

@@ -2,12 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import css from "./index.css";
 import { Layout } from "../../components/layout";
-import { AboutMe } from "../AboutMe";
+
 import { TypedReactHooksDemo } from "../../components/ui/typedJs";
 import { Particulas } from "../../components/ui/particles";
+import { Contacto } from "../../components/Contacto";
+import { Proyectos } from "../../components/Proyectos";
+import { AboutMe } from "../../components/Aboutme";
 function Home() {
 	return (
-		<div className={css.main}>
+		<div className={css.main} id="main">
 			<div className={css.container}>
 				<div className={css.home__name__div}>
 					<img
@@ -38,6 +41,9 @@ function Home() {
 					</div>
 				</div>
 			</div>
+			<AboutMe id="aboutme"></AboutMe>
+			<Proyectos></Proyectos>
+			<Contacto></Contacto>
 		</div>
 	);
 }

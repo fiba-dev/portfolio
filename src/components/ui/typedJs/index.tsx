@@ -10,34 +10,6 @@ function TypedReactHooksDemo(props) {
 	// Create reference to store the Typed instance itself
 	const typed = useRef(null);
 
-	// useEffect(() => {
-	// 	const options = {
-	// 		strings: [
-	// 			"<strong>Javascript</strong>",
-	// 			"<strong>React</strong>",
-	// 			"<strong>Css</strong>",
-	// 			"<strong>Html</strong>",
-	// 			"<strong>Typescript</strong>",
-	// 			"<strong>Firebase</strong>",
-	// 			"<strong>Postman</strong>",
-	// 		],
-	// 		typeSpeed: 30,
-	// 		backSpeed: 50,
-	// 		loop: true,
-	// 		startDelay: 3000,
-	// 		showCursor: false,
-	// 	};
-	// 	const option2 = {
-	// 		strings: ["<strong> Soy Francisco  <br>WEB DEVELOPER FULLSTACK</strong>"],
-	// 		typeSpeed: 40,
-	// 		backSpeed: 50,
-	// 		showCursor: false,
-	// 	};
-
-	// 	// elRef refers to the <span> rendered below
-	// 	typed.current = new Typed(el2.current, option2);
-	// 	typed.current = new Typed(el.current, options);
-	// }, []);
 	let letra;
 	if (props.clase == "letra2") {
 		letra = props.children.split(" ");
@@ -51,7 +23,12 @@ function TypedReactHooksDemo(props) {
 	const loop = props.loop;
 	console.log("soy props.clase", props.clase);
 
-	const clase = props.clase == "letra" ? css.letra : css.letra2;
+	const clase =
+		props.clase == "letra"
+			? css.letra
+			: props.clase == "letra2"
+			? css.letra2
+			: css.letra3;
 	console.log("soy clase", clase);
 
 	useEffect(() => {

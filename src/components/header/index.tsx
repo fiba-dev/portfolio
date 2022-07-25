@@ -1,26 +1,27 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { DesktopIcon, MobilIcon } from "../ui/buttons";
 import css from "./index.css";
 import { useNavigate } from "react-router-dom";
+import Typed from "typed.js";
 let estado = false;
 
 function Header() {
 	const navigate = useNavigate();
 	const [estado, cambiarEstado] = useState(false);
+	function restartTypedJs(path) {
+		window.location.href = path;
+	}
 	return (
 		<div className={css.main}>
-			<button
+			<a
+				href="#main"
 				onClick={() => {
-					navigate("/");
+					console.log("SOY RESET");
+
+					restartTypedJs("#main");
 				}}
 				className={css.home_icon}
-			></button>
-			<button
-				className={css.mobile_menu}
-				onClick={() => {
-					cambiarEstado(!estado);
-				}}
-			></button>
+			></a>
 			<div>
 				{estado && (
 					<div className={css.ventana}>
@@ -36,18 +37,18 @@ function Header() {
 						<MobilIcon
 							className={css.mobil__links}
 							onClick={() => {
-								navigate("/");
 								cambiarEstado(!estado);
 							}}
+							href="#main"
 						>
 							Menu{" "}
 						</MobilIcon>
 						<MobilIcon
 							className={css.mobil__links}
 							onClick={() => {
-								navigate("/aboutme");
 								cambiarEstado(!estado);
 							}}
+							href="#aboutme"
 						>
 							Perfil
 						</MobilIcon>
@@ -55,17 +56,19 @@ function Header() {
 						<MobilIcon
 							className={css.mobil__links}
 							onClick={() => {
-								navigate("/proyects");
 								cambiarEstado(!estado);
+								restartTypedJs("#proyectos");
 							}}
+							href="#proyectos"
 						>
 							Proyectos
 						</MobilIcon>
 						<MobilIcon
 							className={css.mobil__links}
+							href="#contacto"
 							onClick={() => {
-								navigate("/contacto");
 								cambiarEstado(!estado);
+								restartTypedJs("#contacto");
 							}}
 						>
 							Contacto{" "}
@@ -74,34 +77,25 @@ function Header() {
 				)}
 			</div>
 			<div className={css.links_container}>
-				<DesktopIcon
-					className={css.links}
-					onClick={() => {
-						navigate("/aboutme");
-					}}
-				>
+				<DesktopIcon className={css.links} href="#aboutme">
 					{" "}
 					Perfil{" "}
 				</DesktopIcon>
 
-				<DesktopIcon
-					className={css.links}
-					onClick={() => {
-						navigate("proyects");
-					}}
-				>
+				<DesktopIcon className={css.links} href="#proyectos">
 					{" "}
 					Proyectos{" "}
 				</DesktopIcon>
-				<DesktopIcon
-					className={css.links}
-					onClick={() => {
-						navigate("/contacto");
-					}}
-				>
+				<DesktopIcon className={css.links} href="#contacto">
 					Contacto
 				</DesktopIcon>
 			</div>
+			<button
+				className={css.mobile_menu}
+				onClick={() => {
+					cambiarEstado(!estado);
+				}}
+			></button>
 		</div>
 	);
 }
