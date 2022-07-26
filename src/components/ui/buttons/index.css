@@ -9,6 +9,7 @@
 	fill: rgb(216, 216, 216);
 	stroke: rgb(216, 216, 216);
 	stroke-width: 1px;
+	transition: all 0.5s ease;
 }
 .home__button:hover {
 	fill: rgb(12, 245, 132);
@@ -34,9 +35,14 @@
 	fill: rgb(12, 245, 132);
 }
 .desktop__button {
+	display: flex;
+	align-items: center;
 	border: none;
 	text-decoration: none;
-
+	text-align: center;
+	text-justify: center;
+	justify-content: center;
+	height: 40px;
 	border-radius: 8px;
 	color: rgb(216, 216, 216);
 	font-size: 1.3rem;
@@ -44,24 +50,37 @@
 	margin-right: 10px;
 	font-family: "Courier New", Courier, monospace;
 	cursor: pointer;
+	color: rgb(216, 216, 216) !important;
+
+	padding: 0.2em 1.2em;
+	background: rgba(0, 0, 0, 0);
+
+	transition: all 0.5s ease;
+	position: relative;
 }
 .desktop__button:hover {
-	color: rgb(12, 245, 132);
+	box-shadow: 0px 0px 1px 1px rgb(12, 245, 132);
+	background: rgb(12, 245, 132);
+	color: rgb(5, 5, 5) !important;
 }
 .mobil__button {
-	background-color: transparent;
+	background: transparent;
 	font-family: "Courier New", Courier, monospace;
 	text-decoration: none;
 	border-radius: 8px;
-	color: rgb(216, 216, 216);
+	color: rgb(216, 216, 216) !important;
+	padding: 0.2em 0.2em;
 	font-size: 40px;
 	font-weight: 600;
 	margin-bottom: 10px;
+	transition: all 0.5s ease;
 
 	cursor: pointer;
 }
 .mobil__button:hover {
-	color: rgb(12, 245, 132);
+	background: rgb(12, 245, 132);
+	color: rgb(5, 5, 5) !important;
+	box-shadow: 0px 0px 1px 1px rgb(12, 245, 132);
 }
 
 @media (min-width: 1080px) {
