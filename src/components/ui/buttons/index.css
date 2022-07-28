@@ -25,6 +25,28 @@
 	fill: rgb(12, 245, 132);
 	stroke: rgb(12, 245, 132);
 }
+.github__button {
+	fill: rgb(216, 216, 216);
+	height: 45px;
+	width: 45px;
+	cursor: pointer;
+	stroke: rgb(216, 216, 216);
+}
+.github__button:hover {
+	fill: rgb(12, 245, 132);
+	stroke: rgb(12, 245, 132);
+}
+.linkedin__button {
+	fill: rgb(216, 216, 216);
+	height: 45px;
+	width: 45px;
+	cursor: pointer;
+	stroke: rgb(216, 216, 216);
+}
+.linkedin__button:hover {
+	fill: rgb(12, 245, 132);
+	stroke: rgb(12, 245, 132);
+}
 .burger__button {
 	border-radius: 10px;
 	height: 45px;
@@ -43,7 +65,7 @@
 	text-justify: center;
 	justify-content: center;
 	height: 40px;
-	border-radius: 8px;
+
 	color: rgb(216, 216, 216);
 	font-size: 1.3rem;
 	font-weight: bold;
@@ -57,11 +79,11 @@
 
 	transition: all 0.5s ease;
 	position: relative;
+	border-bottom: 1px solid white;
+	border-radius: none;
 }
 .desktop__button:hover {
-	box-shadow: 0px 0px 1px 1px rgb(12, 245, 132);
-	background: rgb(12, 245, 132);
-	color: rgb(5, 5, 5) !important;
+	color: rgb(12, 245, 132) !important;
 }
 .mobil__button {
 	background: transparent;

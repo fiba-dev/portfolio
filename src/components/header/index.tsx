@@ -2,7 +2,9 @@ import React, { useRef, useState } from "react";
 import {
 	BurgerButton,
 	DesktopIcon,
+	GithubButton,
 	HomeButton,
+	LinkedinButton,
 	LogoButton,
 	MobilIcon,
 } from "../ui/buttons";
@@ -40,6 +42,17 @@ function Header() {
 				<DesktopIcon className={css.links} href="#contacto">
 					Contacto
 				</DesktopIcon>
+				<div className={css.redes}>
+					{" "}
+					<GithubButton
+						href="https://github.com/fiba-dev"
+						target="_blank"
+					></GithubButton>
+					<LinkedinButton
+						href="https://www.linkedin.com/in/fran-ibarrola/"
+						target="_blank"
+					></LinkedinButton>
+				</div>
 			</div>
 			<div>
 				{estado && (
@@ -92,6 +105,17 @@ function Header() {
 						>
 							Contacto{" "}
 						</MobilIcon>
+						<div className={css.redes}>
+							{" "}
+							<GithubButton
+								href="https://github.com/fiba-dev"
+								target="_blank"
+							></GithubButton>
+							<LinkedinButton
+								href="https://www.linkedin.com/in/fran-ibarrola/"
+								target="_blank"
+							></LinkedinButton>
+						</div>
 					</div>
 				)}
 			</div>
