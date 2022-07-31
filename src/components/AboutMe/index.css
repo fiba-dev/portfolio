@@ -25,122 +25,122 @@
 } */
 
 .container {
-	display: flex;
-	flex-direction: column;
-	color: rgb(216, 216, 216);
-	align-items: center;
-	justify-content: flex-start;
-	height: 90vh;
-	width: 100%;
-	padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(216, 216, 216);
+  align-items: center;
+  justify-content: flex-start;
+  height: 90vh;
+  width: 100%;
+  padding-top: 60px;
 
-	background: url("https://res.cloudinary.com/fiba06-dev/image/upload/v1654465374/portfolio/robot-izq_uhflq0.png");
-	background-size: 150px;
-	background-repeat: no-repeat;
-	background-position: right bottom;
-	background-color: black;
+  background: url("https://res.cloudinary.com/fiba06-dev/image/upload/v1654465374/portfolio/robot-izq_uhflq0.png");
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-color: black;
 }
 .column {
-	display: flex;
-	flex-direction: column;
-	max-width: 350px;
-	margin-bottom: 20px;
-	/* animation-name: minToMax;
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  margin-bottom: 20px;
+  /* animation-name: minToMax;
 	animation-duration: 1s; */
-	background: -webkit-linear-gradient(
-		top,
-		rgba(255, 255, 255, 0.1),
-		rgba(255, 255, 255, 0.1)
-	);
-	border-radius: 10px;
+  background: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.1)
+  );
+  border-radius: 10px;
 }
 .titulo {
-	height: 100px;
+  height: 100px;
 }
 .container__column {
-	display: flex;
-	flex-direction: column;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 .robot {
-	position: absolute;
-	z-index: -10;
-	height: 150px;
-	right: 0px;
-	bottom: 0px;
+  position: absolute;
+  z-index: -10;
+  height: 150px;
+  right: 0px;
+  bottom: 0px;
 }
 .cv__link {
-	padding: 10px;
+  padding: 10px;
 
-	border: none;
-	box-shadow: 0px 0px 2px 2px rgb(216, 216, 216);
-	color: rgb(216, 216, 216);
-	text-decoration: none;
-	font-size: 20px;
-	background-color: transparent;
-	width: 40vw;
+  border: none;
+  box-shadow: 0px 0px 2px 2px rgb(216, 216, 216);
+  color: rgb(216, 216, 216);
+  text-decoration: none;
+  font-size: 20px;
+  background-color: transparent;
+  width: 40vw;
 
-	border-radius: 10px;
+  border-radius: 10px;
 
-	animation-name: botToTop;
-	animation-duration: 1s;
+  animation-name: botToTop;
+  animation-duration: 1s;
 }
 
 .cv__link:hover {
-	background: rgb(12, 245, 132);
-	color: rgb(5, 5, 5) !important;
-	box-shadow: 0px 0px 1px 1px rgb(12, 245, 132);
+  color: rgb(12, 245, 132);
+
+  box-shadow: 0px 0px 2px 2px rgb(12, 245, 132);
 }
 @media (min-width: 1080px) and (min-height: 500px) {
-	.container {
-		min-height: 93vh;
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		color: rgb(216, 216, 216);
-		margin-top: 90px;
+  .container {
+    min-height: 93vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(216, 216, 216);
+    margin-top: 90px;
 
-		background-repeat: no-repeat;
-		background-size: 350px;
-		background-position: 100% 100%;
-		background-color: black;
-	}
-	.titulo {
-		color: rgb(216, 216, 216);
-		font-size: 60px;
-	}
-	.container__column {
-		display: flex;
-		flex-direction: column;
-		align-content: flex-end;
-		width: 70vw;
-		justify-content: space-between;
-	}
-	.robot {
-		position: absolute;
-		right: 0px;
-		height: 350px;
-		bottom: 0px;
-	}
-	.column {
-		flex-direction: column;
-		text-align: center;
-		align-items: center;
-		margin-left: 30px;
-		font-size: 20px;
-		max-width: 60vw;
-		animation-name: topToBot;
-		animation-duration: 1s;
-	}
-	.column text {
-		font-size: 25px;
-	}
-	.cv__link {
-		max-width: 30vw;
-		font-size: 30px;
-	}
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: 100% 100%;
+    background-color: black;
+  }
+  .titulo {
+    color: rgb(216, 216, 216);
+    font-size: 60px;
+  }
+  .container__column {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    width: 70vw;
+    justify-content: space-between;
+  }
+  .robot {
+    position: absolute;
+    right: 0px;
+    height: 350px;
+    bottom: 0px;
+  }
+  .column {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 20px;
+    max-width: 60vw;
+    animation-name: topToBot;
+    animation-duration: 1s;
+  }
+  .column text {
+    font-size: 25px;
+  }
+  .cv__link {
+    max-width: 30vw;
+    font-size: 30px;
+  }
 }
