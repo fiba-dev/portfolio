@@ -17,12 +17,12 @@ function AboutMe(props) {
 					<h1>Soy Francisco Ibarrola</h1>
 					<p>
 						{" "}
-						Soy una persona muy apasionada por la tecnología, en el año 2010
-						obtuve una base solida sobre los fundamentos de la programación.
-						desde el año 2020 comencé con videos de YouTube acerca de JavaScript
-						y en enero del 2021 con un curso de full-stack en APX aprendiendo
-						React.js, Node.js y mucho mas. Actualmente en 2022 me encuentro
-						capacitado para afrontar nuevos desafíos
+						Soy Desarrollador web en tecnologías como
+						<b> HTML, CSS,JAVASCRIPT, React.js,</b>. Con conocimiento en
+						Firebase, Express, Next.js, Vercel, Heroku, Postgress, Dropbox,
+						Airtable, Cloudinary, Contenful, Mapbox, Algolia . Documentación
+						usando <b> Postman</b>. Control de Versiones en
+						<b> Github</b> y trabajando con metodologías Agiles<b>(SCRUM)</b>
 					</p>
 				</div>
 				<a

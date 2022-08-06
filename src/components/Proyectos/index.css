@@ -47,7 +47,7 @@
 		align-items: center;
 		justify-items: center;
 		padding: 40px 0 40px 0px;
-		grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 	}
 	.titulo {
 		color: whitesmoke;

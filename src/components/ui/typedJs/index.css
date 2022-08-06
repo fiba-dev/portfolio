@@ -5,8 +5,8 @@
 }
 .letra2 {
 	font-size: 25px;
-	color: rgb(12, 245, 132);
-	font-weight: 500;
+	color: rgba(255, 0, 0, 0.9);
+	font-weight: 600;
 }
 .letra3 {
 	font-size: 45px;
@@ -23,10 +23,9 @@
 		height: 55px;
 	}
 	.letra2 {
-		color: rgb(12, 245, 132);
 		font-size: 45px;
 		height: 45px;
-		font-weight: 500;
+		font-weight: 600;
 	}
 	.letra3 {
 		font-size: 55px;
