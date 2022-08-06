@@ -13,6 +13,7 @@ function Home() {
     <div className={css.main} id="main">
       <div className={css.container}>
         <div className={css.home__name__div}>
+          <Particulas></Particulas>
           <img
             className={css.robot}
             src="https://res.cloudinary.com/fiba06-dev/image/upload/v1646670365/portfolio/robot_2_1_yrfc1h.png"
