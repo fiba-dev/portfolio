@@ -198,11 +198,7 @@
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
 	}
-	.card:hover {
-		/* box-shadow: 0px 0px 2px 2px rgb(12, 245, 132);
-		-webkit-box-shadow: 0px 0px 2px 2px rgb(12, 245, 132);
-		-moz-box-shadow: 0px 0px 2px 2px rgb(12, 245, 132); */
-	}
+
 	.card:hover p {
 		color: rgb(12, 245, 132);
 	}
