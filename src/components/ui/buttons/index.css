@@ -34,6 +34,7 @@
 }
 .github__button:hover {
   fill: rgb(12, 245, 132);
+  stroke: rgb(12, 245, 132);
 }
 .linkedin__button {
   fill: rgb(216, 216, 216);
