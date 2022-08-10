@@ -6,10 +6,11 @@ import {
 	HomeButton,
 	LinkedinButton,
 	MobilIcon,
-} from "../ui/buttons";
+} from "../../ui/buttons";
 import css from "./index.css";
 import { useNavigate } from "react-router-dom";
 import Typed from "typed.js";
+import { SelectLenguageMobile } from "../../selectLenguage";
 let estado = false;
 
 function Header() {
@@ -107,6 +108,11 @@ function Header() {
 								target="_blank"
 							></GithubButton>
 						</div>
+						<SelectLenguageMobile
+							onClick={() => {
+								cambiarEstado(!estado);
+							}}
+						></SelectLenguageMobile>
 					</div>
 				)}
 			</div>

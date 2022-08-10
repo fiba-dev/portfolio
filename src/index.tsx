@@ -1,32 +1,28 @@
 import ReactDOM from "react-dom";
 import React, { Suspense } from "react";
-
 import { BrowserRouter } from "react-router-dom";
-import { Home } from "./pages/Home/home";
+import { Home } from "../src/pages/es";
 import { RecoilRoot } from "recoil";
-import { Header } from "./components/header";
-import { css } from "./index.css";
-import { Particulas } from "./components/ui/particles";
+import { AppRoutes } from "../src/router";
 
 class index extends React.Component<any, any> {
-  constructor(props) {
-    super(props);
-    console.log("Soy el index.ts");
-  }
+	constructor(props) {
+		super(props);
+		console.log("Soy el index.ts");
+	}
 
-  render() {
-    return <Home></Home>;
-  }
+	render() {
+		return <Home></Home>;
+	}
 }
 
 ReactDOM.render(
-  <Suspense fallback={null}>
-    <RecoilRoot>
-      <BrowserRouter>
-        <Header></Header>
-        <Home></Home>
-      </BrowserRouter>
-    </RecoilRoot>
-  </Suspense>,
-  document.querySelector(".app")
+	<Suspense fallback={<h1>LOADING</h1>}>
+		<RecoilRoot>
+			<BrowserRouter>
+				<AppRoutes />
+			</BrowserRouter>
+		</RecoilRoot>
+	</Suspense>,
+	document.querySelector(".app")
 );

@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import css from "./index.css";
 
-import { TypedReactHooksDemo } from "../ui/typedJs";
+import { TypedReactHooksDemo } from "../../ui/typedJs";
 function Contacto() {
 	return (
 		<div className={css.container_contacto} id="contacto">

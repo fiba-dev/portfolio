@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Outlet, useNavigate } from "react-router-dom";
-
-import { Header } from "./es/header";
+import { Header } from "../header";
 
 function Layout(props) {
 	return (
 		<div>
-			<Header />
+			<Header></Header>
+
 			<Outlet></Outlet>
 		</div>
 	);

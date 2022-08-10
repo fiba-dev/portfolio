@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { Outlet, useNavigate } from "react-router-dom";
+import { HeaderEn } from "../header";
 
-import { Header } from "./es/header";
-
-function Layout(props) {
+function LayoutEn(props) {
 	return (
 		<div>
-			<Header />
+			<HeaderEn></HeaderEn>
+
 			<Outlet></Outlet>
 		</div>
 	);
 }
 
-export { Layout };
+export { LayoutEn };

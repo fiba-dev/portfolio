@@ -1,5 +1,5 @@
 import React from "react";
-import { TypedReactHooksDemo } from "../ui/typedJs";
+import { TypedReactHooksDemo } from "../../ui/typedJs";
 import css from "./index.css";
 
 function AboutMe(props) {

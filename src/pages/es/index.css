@@ -1,0 +1,74 @@
+body {
+	font-family: "Courier New", Courier, monospace;
+	background-size: cover;
+	background-color: rgba(53, 53, 53);
+	margin: 0px;
+	padding: 0px;
+}
+.main {
+	padding: 0px;
+}
+
+.container {
+	min-height: 100vh;
+	min-width: 98vw;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+	justify-content: center;
+}
+.robot {
+	position: absolute;
+	z-index: +10;
+	height: 150px;
+}
+
+.titulo {
+	color: rgb(12, 245, 132);
+	font-size: 45px;
+}
+.typed {
+	height: 150px;
+}
+.home__name__div {
+	display: flex;
+	flex-direction: column;
+	background-color: none;
+	justify-content: space-around;
+	height: 400px;
+	width: 350px;
+	text-align: center;
+	background: -webkit-linear-gradient(
+		top,
+		rgba(1, 1, 1, 0.5),
+		rgba(1, 1, 1, 0.5),
+		rgba(12, 245, 132, 0.1)
+	);
+	border-radius: 10px;
+	box-shadow: rgb(0 0 0 / 55%) 4px 4px 8px;
+	-webkit-box-shadow: rgb(0 0 0 / 55%) 4px 4px 8px;
+	-moz-box-shadow: rgb(0 0 0 / 55%) 4px 4px 8px;
+}
+@media (min-width: 1080px) {
+	.home__name__div {
+		text-align: center;
+		height: 400px;
+		width: 800px;
+		margin-left: 8rem;
+	}
+	.robot {
+		position: absolute;
+		z-index: +10;
+		height: 250px;
+		color: white;
+		position: left;
+	}
+	.typed {
+		height: 500px;
+	}
+	.titulo {
+		font-size: 60px;
+	}
+}

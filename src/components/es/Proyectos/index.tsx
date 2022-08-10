@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import css from "./index.css";
-import { Layout } from "../layout";
-import { TypedReactHooksDemo } from "../ui/typedJs";
+
+import { TypedReactHooksDemo } from "../../ui/typedJs";
 import { ProgressPlugin } from "webpack";
-import { CardProyects } from "../ui/cards-proyects";
-import { obtenerProyectos } from "../../apiURL";
+import { CardProyects } from "../../ui/cards-proyects";
+import { obtenerProyectos } from "../../../apiURL";
 
 function Proyectos() {
 	let [data, setData] = useState([]);

@@ -1,112 +1,117 @@
 .root {
-  background-color: rgb(241, 245, 31);
-  font-weight: 600;
-  border: 1px solid black;
+	background-color: rgb(241, 245, 31);
+	font-weight: 600;
+	border: 1px solid black;
 }
 .home__button {
-  height: 45px;
-  width: 45px;
-  fill: rgb(216, 216, 216);
-  stroke: rgb(216, 216, 216);
-  stroke-width: 1px;
-  transition: all 0.5s ease;
+	height: 45px;
+	width: 45px;
+	fill: rgb(216, 216, 216);
+	stroke: rgb(216, 216, 216);
+	stroke-width: 1px;
+	transition: all 0.5s ease;
 }
 .home__button:hover {
-  fill: rgb(12, 245, 132);
-  stroke: rgb(12, 245, 132);
+	fill: rgb(12, 245, 132);
+	stroke: rgb(12, 245, 132);
 }
 .logo__button {
-  fill: rgb(216, 216, 216);
-  height: 45px;
-  width: 45px;
-  stroke: rgb(216, 216, 216);
+	fill: rgb(216, 216, 216);
+	height: 45px;
+	width: 45px;
+	stroke: rgb(216, 216, 216);
 }
 .logo__button:hover {
-  fill: rgb(12, 245, 132);
-  stroke: rgb(12, 245, 132);
+	fill: rgb(12, 245, 132);
+	stroke: rgb(12, 245, 132);
 }
 .github__button {
-  fill: rgb(216, 216, 216);
-  height: 45px;
-  width: 45px;
-  cursor: pointer;
-  stroke: rgb(216, 216, 216);
+	fill: rgb(216, 216, 216);
+	height: 45px;
+	width: 45px;
+	cursor: pointer;
+	stroke: rgb(216, 216, 216);
 }
 .github__button:hover {
-  fill: rgb(12, 245, 132);
-  stroke: rgb(12, 245, 132);
+	fill: rgb(12, 245, 132);
+	stroke: rgb(12, 245, 132);
 }
 .linkedin__button {
-  fill: rgb(216, 216, 216);
-  height: 45px;
-  width: 45px;
-  cursor: pointer;
-  stroke: rgb(216, 216, 216);
+	fill: rgb(216, 216, 216);
+	height: 45px;
+	width: 45px;
+	cursor: pointer;
+	stroke: rgb(216, 216, 216);
 }
 .linkedin__button:hover {
-  fill: rgb(12, 245, 132);
-  stroke: rgb(12, 245, 132);
+	fill: rgb(12, 245, 132);
+	stroke: rgb(12, 245, 132);
 }
 .burger__button {
-  border-radius: 10px;
-  height: 45px;
-  width: 45px;
-  fill: rgb(216, 216, 216);
+	border-radius: 10px;
+	height: 45px;
+	width: 45px;
+	fill: rgb(216, 216, 216);
 }
 .burger__button:hover {
-  fill: rgb(12, 245, 132);
+	fill: rgb(12, 245, 132);
 }
 .desktop__button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
-  height: 40px;
-  text-decoration: none;
-  color: rgb(216, 216, 216);
-  font-size: 1.3rem;
-  font-weight: bold;
-  margin-right: 10px;
-  font-family: "Courier New", Courier, monospace;
-  cursor: pointer;
-  padding: 0.4em 1.2em;
-  background: none;
-  text-align: center;
-  border-radius: 5px;
-  box-sizing: content-box;
-  border: solid 2px transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-items: center;
+	height: 40px;
+	text-decoration: none;
+	color: rgb(216, 216, 216);
+	font-size: 1.3rem;
+	font-weight: bold;
+	margin-right: 10px;
+	font-family: "Courier New", Courier, monospace;
+	cursor: pointer;
+	padding: 0.4em 1.2em;
+	background: none;
+	text-align: center;
+	border-radius: 5px;
+	box-sizing: content-box;
+	border: solid 2px transparent;
 
-  transition: 1s all ease;
+	transition: 1s all ease;
 }
 
 .desktop__button:hover {
-  color: rgb(12, 245, 132) !important;
-  border: solid 2px rgb(12, 245, 132);
-  box-shadow: 0px 0px 0px 2px rgb(12, 245, 132);
+	color: rgb(12, 245, 132) !important;
+	border: solid 2px rgb(12, 245, 132);
+	box-shadow: 0px 0px 0px 2px rgb(12, 245, 132);
 }
 .mobil__button {
-  background: transparent;
-  font-family: "Courier New", Courier, monospace;
-  text-decoration: none;
-  border-radius: 8px;
-  color: rgb(216, 216, 216);
-  padding: 0.2em 0.2em;
-  font-size: 40px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  transition: all 0.5s ease;
-  background-color: rgba(0, 0, 0, 0.7);
+	background: transparent;
+	font-family: "Courier New", Courier, monospace;
+	text-decoration: none;
+	border-radius: 8px;
+	color: rgb(216, 216, 216);
+	padding: 0.2em 0.2em;
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	transition: all 0.5s ease;
+	background-color: rgba(0, 0, 0, 0.7);
 
-  cursor: pointer;
+	cursor: pointer;
 }
 .mobil__button:hover {
-  color: rgb(12, 245, 132);
-  background-color: rgba(0, 0, 0, 0.7);
-  box-shadow: 0px 0px 2px 2px rgb(12, 245, 132);
+	color: rgb(12, 245, 132);
+	background-color: rgba(0, 0, 0, 0.7);
+	box-shadow: 0px 0px 2px 2px rgb(12, 245, 132);
+}
+.flags {
+	width: 65px;
+	height: 50px;
+	cursor: pointer;
 }
 
 @media (min-width: 1080px) {
-  .burger__button {
-    display: none;
-  }
+	.burger__button {
+		display: none;
+	}
 }

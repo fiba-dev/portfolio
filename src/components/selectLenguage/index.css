@@ -1,0 +1,30 @@
+.container_lenguage_desktop {
+	display: none;
+}
+.container_lenguage_mobile {
+	top: 10px;
+	display: flex;
+	flex-direction: row;
+
+	gap: 10px;
+	right: 10px;
+	width: 140px;
+	height: 70px;
+}
+
+@media (min-width: 1080px) {
+	.container_lenguage_mobile {
+		display: none;
+	}
+	.container_lenguage_desktop {
+		position: fixed;
+		top: 10px;
+		display: flex;
+		flex-direction: row;
+
+		gap: 10px;
+		right: 10px;
+		width: 200px;
+		height: 70px;
+	}
+}
