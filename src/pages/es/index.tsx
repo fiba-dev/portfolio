@@ -19,7 +19,7 @@ function Home() {
 						className={css.robot}
 						src="https://res.cloudinary.com/fiba06-dev/image/upload/v1646670365/portfolio/robot_2_1_yrfc1h.png"
 					></img>
-					<h1 className={css.titulo}>¡Hello World!</h1>
+					<h1 className={css.titulo}>¡Hola Mundo!</h1>
 					<div className={css.typed}>
 						<TypedReactHooksDemo velocidad={30} clase={"letra"} loop={false}>
 							Soy Fran

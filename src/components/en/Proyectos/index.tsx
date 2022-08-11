@@ -5,14 +5,14 @@ import css from "../../es/Proyectos/index.css";
 import { TypedReactHooksDemo } from "../../ui/typedJs";
 import { ProgressPlugin } from "webpack";
 import { CardProyects } from "../../ui/cards-proyects";
-import { obtenerProyectos } from "../../../apiURL";
+import { obtenerProyectos, obtenerProyectosEnglish } from "../../../apiURL";
 
 function Proyects() {
 	let [data, setData] = useState([]);
 	useEffect(() => {
 		// declare the data fetching function
 		const fetchData = async () => {
-			let proyects = await obtenerProyectos();
+			let proyects = await obtenerProyectosEnglish();
 			setData(proyects);
 			console.log("soydata", data);
 		};
