@@ -30,7 +30,7 @@
 	color: rgb(216, 216, 216);
 	align-items: center;
 	justify-content: flex-start;
-	height: 90vh;
+	height: 667px;
 	width: 100%;
 	padding-top: 60px;
 
@@ -97,7 +97,7 @@
 	background-color: rgba(0, 0, 0, 0.7);
 	box-shadow: 0px 0px 2px 2px rgb(12, 245, 132);
 }
-@media (min-width: 1080px) and (min-height: 500px) {
+@media (min-width: 600px) and (min-height: 500px) {
 	.container {
 		min-height: 93vh;
 		width: 100%;
