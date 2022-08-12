@@ -14,11 +14,6 @@ function HomeEn() {
 			<SelectLenguageDesktop></SelectLenguageDesktop>
 			<div className={css.container}>
 				<div className={css.home__name__div}>
-					<Particulas></Particulas>
-					<img
-						className={css.robot}
-						src="https://res.cloudinary.com/fiba06-dev/image/upload/v1646670365/portfolio/robot_2_1_yrfc1h.png"
-					></img>
 					<h1 className={css.titulo}>¡Hello World!</h1>
 					<div className={css.typed}>
 						<TypedReactHooksDemo velocidad={30} clase={"letra"} loop={false}>

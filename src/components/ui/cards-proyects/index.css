@@ -31,9 +31,9 @@
 	width: 350px;
 	height: 200px;
 	margin-bottom: 20px;
-	box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
+	/* box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
 	-webkit-box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
-	-moz-box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
+	-moz-box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px; */
 }
 .face {
 	position: absolute;
@@ -52,13 +52,13 @@
 	animation-duration: 1s;
 	animation-iteration-count: infinite;
 	overflow: hidden;
-	box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
+	/* box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
 	-webkit-box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
-	-moz-box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
+	-moz-box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px; */
 	border-radius: 15px;
 }
 .card_back {
-	background-color: #2a2a29;
+	background-color: rgba(53, 53, 53);
 	width: 0%;
 	color: rgb(216, 216, 216);
 	text-align: center;
@@ -194,11 +194,23 @@
 		justify-content: center;
 	}
 	.card:hover .card_back {
-		box-shadow: none;
-		-webkit-box-shadow: none;
-		-moz-box-shadow: none;
+		box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
+		-webkit-box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
+		-moz-box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
+		background-color: rgba(73, 73, 73, 0.99);
+		cursor: pointer;
 	}
 
+	/* .card:hover .card_front {
+		box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
+		-webkit-box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
+		-moz-box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
+	} */
+	.card:hover {
+		box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
+		-webkit-box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
+		-moz-box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
+	}
 	.card:hover p {
 		color: rgb(12, 245, 132);
 	}

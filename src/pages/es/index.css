@@ -21,7 +21,6 @@ body {
 	justify-content: center;
 }
 .robot {
-	position: absolute;
 	z-index: +10;
 	height: 140px;
 }
@@ -45,12 +44,20 @@ body {
 	height: 400px;
 	width: 350px;
 	text-align: center;
-	background: -webkit-linear-gradient(
+	background-color: -webkit-linear-gradient(
 		top,
 		rgba(1, 1, 1, 0.5),
 		rgba(1, 1, 1, 0.5),
 		rgba(12, 245, 132, 0.1)
 	);
+
+	background-image: url("https://res.cloudinary.com/fiba06-dev/image/upload/v1646670365/portfolio/robot_2_1_yrfc1h.png");
+
+	background-position: left;
+	background-size: 130px;
+	background-repeat: no-repeat;
+	background-color: rgba(1, 1, 1, 0.2);
+
 	border-radius: 10px;
 	box-shadow: rgb(0 0 0 / 55%) 4px 4px 8px;
 	-webkit-box-shadow: rgb(0 0 0 / 55%) 4px 4px 8px;
@@ -62,13 +69,29 @@ body {
 		height: 400px;
 		width: 800px;
 		margin-left: 8rem;
+		background-image: none;
+		background: -webkit-linear-gradient(
+				top,
+				rgba(255, 255, 255, 0.1),
+				rgba(255, 255, 255, 0.1)
+			),
+			url("https://res.cloudinary.com/fiba06-dev/image/upload/v1660342595/portfolio/perfil-linkedin-removebg_gdv0zt.png");
+		background-position: right;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	.profile {
+		height: 50vh;
+		width: 20vw;
+		position: fixed;
+		right: 0px;
 	}
 	.robot {
-		position: absolute;
+		object-fit: cover;
 		z-index: +10;
-		height: 250px;
+		height: 300px;
 		color: white;
-		position: left;
+		object-position: right;
 	}
 	.typed {
 		height: 500px;

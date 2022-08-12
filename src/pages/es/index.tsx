@@ -14,11 +14,7 @@ function Home() {
 			<div className={css.container}>
 				<div className={css.home__name__div}>
 					<SelectLenguageDesktop></SelectLenguageDesktop>
-					<Particulas></Particulas>
-					<img
-						className={css.robot}
-						src="https://res.cloudinary.com/fiba06-dev/image/upload/v1646670365/portfolio/robot_2_1_yrfc1h.png"
-					></img>
+
 					<h1 className={css.titulo}>¡Hola Mundo!</h1>
 
 					<div className={css.typed}>

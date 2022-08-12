@@ -9,6 +9,7 @@ import {
 import css from "./index.css";
 import { useNavigate } from "react-router-dom";
 import { SelectLenguageMobile } from "../../selectLenguage";
+import { Particulas } from "../../ui/particles";
 let estado = false;
 
 function Header() {

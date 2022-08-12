@@ -35,7 +35,7 @@
 	width: 100%;
 	padding-top: 60px;
 
-	background-color: rgba(1, 1, 1, 0.7);
+	background-color: rgba(255, 255, 255, 0.1);
 }
 .column {
 	display: flex;
@@ -46,9 +46,8 @@
 	animation-duration: 1s; */
 	background: -webkit-linear-gradient(
 		top,
-		rgba(1, 1, 1, 0.5),
-		rgba(1, 1, 1, 0.5),
-		rgba(12, 245, 132, 0.1)
+		rgba(1, 1, 1, 0.3),
+		rgba(1, 1, 1, 0.3)
 	);
 	border-radius: 10px;
 }
