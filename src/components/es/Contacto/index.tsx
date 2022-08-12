@@ -1,7 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import css from "./index.css";
-
 import { TypedReactHooksDemo } from "../../ui/typedJs";
 function Contacto() {
 	return (

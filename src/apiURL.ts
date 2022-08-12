@@ -1,12 +1,3 @@
-const dev = process.env.NODE_ENV === "development";
-let API_URL = "";
-
-dev
-	? (API_URL = "http://localhost:3003")
-	: (API_URL = "https://m7-final.herokuapp.com");
-
-export { API_URL };
-
 export async function obtenerProyectos() {
 	return await fetch(
 		"https://cdn.contentful.com/spaces/0q692q1cfe6h/environments/master/entries?access_token=VlgYpjdWI8YUg5Mthuwkb-HuPbcBKUuvvLtEl0W-wew&content_type=portfolio"

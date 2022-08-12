@@ -17,11 +17,9 @@ function TypedReactHooksDemo(props) {
 		letra = [props.children];
 	}
 
-	console.log("soy letra", letra);
 	const velocidad = props.velocidad;
 	const comenzar = props.comenzar;
 	const loop = props.loop;
-	console.log("soy props.clase", props.clase);
 
 	const clase =
 		props.clase == "letra"
@@ -29,7 +27,6 @@ function TypedReactHooksDemo(props) {
 			: props.clase == "letra2"
 			? css.letra2
 			: css.letra3;
-	console.log("soy clase", clase);
 
 	useEffect(() => {
 		const options = {

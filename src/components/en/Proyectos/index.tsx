@@ -14,7 +14,6 @@ function Proyects() {
 		const fetchData = async () => {
 			let proyects = await obtenerProyectosEnglish();
 			setData(proyects);
-			console.log("soydata", data);
 		};
 
 		// call the function

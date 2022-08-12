@@ -1,5 +1,4 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import css from "../../es/Contacto/index.css";
 
 import { TypedReactHooksDemo } from "../../ui/typedJs";

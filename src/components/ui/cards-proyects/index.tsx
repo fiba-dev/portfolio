@@ -3,10 +3,8 @@ import css from "./index.css";
 import { Link } from "react-router-dom";
 
 function CardProyects(props) {
-	console.log("entre al log", props.id);
 	let claseDiv;
 	if (props.id % 2 == 0) {
-		console.log("soy props.id");
 		claseDiv = css.div1;
 	} else {
 		claseDiv = css.div2;

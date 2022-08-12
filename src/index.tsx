@@ -8,7 +8,6 @@ import { AppRoutes } from "../src/router";
 class index extends React.Component<any, any> {
 	constructor(props) {
 		super(props);
-		console.log("Soy el index.ts");
 	}
 
 	render() {

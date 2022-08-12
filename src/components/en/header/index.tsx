@@ -1,15 +1,13 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import {
 	BurgerButton,
 	DesktopIcon,
 	GithubButton,
 	HomeButton,
-	LinkedinButton,
 	MobilIcon,
 } from "../../ui/buttons";
 import css from "../../es/header/index.css";
 import { useNavigate } from "react-router-dom";
-import Typed from "typed.js";
 import { SelectLenguageMobile } from "../../selectLenguage";
 let estado = false;
 
