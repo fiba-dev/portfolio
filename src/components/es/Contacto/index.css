@@ -46,12 +46,8 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: flex-start;
+	justify-content: center;
 	color: whitesmoke;
-	background: url("https://res.cloudinary.com/fiba06-dev/image/upload/v1646670365/portfolio/robot_2_1_yrfc1h.png");
-	background-repeat: no-repeat;
-	background-size: 150px;
-	background-position: left bottom;
 }
 .div__form {
 	background: -webkit-linear-gradient(
@@ -130,7 +126,7 @@ button:hover {
 		justify-content: center;
 		background: none;
 		height: 100vh;
-
+		width: 100vw;
 		align-items: center;
 	}
 	.titulo {

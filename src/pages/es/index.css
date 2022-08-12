@@ -23,12 +23,16 @@ body {
 .robot {
 	position: absolute;
 	z-index: +10;
-	height: 150px;
+	height: 140px;
 }
 
 .titulo {
 	color: rgb(12, 245, 132);
 	font-size: 45px;
+	text-align: left;
+
+	width: 40%;
+	align-self: center;
 }
 .typed {
 	height: 150px;
@@ -70,6 +74,7 @@ body {
 		height: 500px;
 	}
 	.titulo {
+		text-align: center;
 		font-size: 60px;
 	}
 }

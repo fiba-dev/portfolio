@@ -35,10 +35,6 @@
 	width: 100%;
 	padding-top: 60px;
 
-	background: url("https://res.cloudinary.com/fiba06-dev/image/upload/v1654465374/portfolio/robot-izq_uhflq0.png");
-	background-size: 150px;
-	background-repeat: no-repeat;
-	background-position: right bottom;
 	background-color: rgba(1, 1, 1, 0.7);
 }
 .column {
@@ -108,10 +104,6 @@
 		justify-content: center;
 		color: rgb(216, 216, 216);
 		margin-top: 90px;
-
-		background-repeat: no-repeat;
-		background-size: 350px;
-		background-position: 100% 100%;
 	}
 	.titulo {
 		color: rgb(216, 216, 216);
