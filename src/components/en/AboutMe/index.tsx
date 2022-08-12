@@ -27,9 +27,9 @@ function AboutMeEn(props) {
 				</div>
 				<a
 					className={css.cv__link}
-					href="https://drive.google.com/uc?export=download&id=1xtU4JfywLBZbjl5KtRzPISEhHD3GrSHn"
+					href="https://drive.google.com/uc?export=download&id=1XF7igf8YJhlMDPCrNVrB1v4hZescssNU"
 				>
-					CURRICULUM
+					Resumé
 				</a>{" "}
 			</div>
 		</div>
