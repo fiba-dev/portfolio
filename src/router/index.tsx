@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import React from "react";
-import { Layout } from "../components/layout";
+import { Layout } from "../components/es/Layout/layout";
 import { Home } from "../pages/es/index";
 import { HomeEn } from "../pages/en/index";
 import { Header } from "../components/es/header";

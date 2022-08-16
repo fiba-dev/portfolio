@@ -31,6 +31,7 @@
 	width: 350px;
 	height: 200px;
 	margin-bottom: 20px;
+	z-index: 0;
 	/* box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
 	-webkit-box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
 	-moz-box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px; */

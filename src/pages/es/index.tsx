@@ -8,6 +8,8 @@ import { Contacto } from "../../components/es/Contacto";
 import { Proyectos } from "../../components/es/Proyectos";
 import { AboutMe } from "../../components/es/AboutMe";
 import { SelectLenguageDesktop } from "../../components/selectLenguage";
+import { MenuDesktop, MenuMobil } from "../../components/es/framer-motion";
+import { MenuToggle } from "../../components/ui/buttons";
 function Home() {
 	return (
 		<div className={css.main} id="main">
@@ -42,6 +44,7 @@ function Home() {
 			</div>
 			<AboutMe id="aboutme"></AboutMe>
 			<Proyectos></Proyectos>
+
 			<Contacto></Contacto>
 		</div>
 	);

@@ -69,7 +69,7 @@
 	margin-right: 10px;
 	font-family: "Courier New", Courier, monospace;
 	cursor: pointer;
-	padding: 0.4em 1.2em;
+	padding: 0.4em 0.8em;
 	background: none;
 	text-align: center;
 	border-radius: 5px;
@@ -80,9 +80,9 @@
 }
 
 .desktop__button:hover {
-	color: rgb(12, 245, 132) !important;
+	color: rgb(12, 245, 132);
 	border: solid 2px rgb(12, 245, 132);
-	box-shadow: 0px 0px 0px 2px rgb(12, 245, 132);
+	box-shadow: transparent;
 }
 .mobil__button {
 	background: transparent;
@@ -109,9 +109,55 @@
 	height: 50px;
 	cursor: pointer;
 }
+.botonBurger {
+	outline: none;
+	border: none;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	cursor: pointer;
+	position: fixed;
+	top: 18px;
+	left: 15px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: transparent;
+	border: transparent;
+	z-index: 1;
+}
+.botonBurger:hover {
+	border: transparent;
+	background: transparent;
+	box-shadow: 0px transparent;
+}
 
 @media (min-width: 1080px) {
 	.burger__button {
 		display: none;
+	}
+	.botonBurger {
+		outline: none;
+		border: none;
+		user-select: none;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		cursor: pointer;
+		position: fixed;
+		top: 18px;
+		left: 15px;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		background: transparent;
+		border: transparent;
+		z-index: 1;
+	}
+	.botonBurger:hover {
+		border: transparent;
+		background: transparent;
+		box-shadow: 0px transparent;
 	}
 }

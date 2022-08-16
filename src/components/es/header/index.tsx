@@ -4,7 +4,7 @@ import {
 	DesktopIcon,
 	GithubButton,
 	HomeButton,
-	MobilIcon,
+	MobileIcon,
 } from "../../ui/buttons";
 import css from "./index.css";
 import { useNavigate } from "react-router-dom";
@@ -61,7 +61,7 @@ function Header() {
 							{" "}
 							X
 						</a>
-						<MobilIcon
+						<MobileIcon
 							className={css.mobil__links}
 							onClick={() => {
 								cambiarEstado(!estado);
@@ -69,8 +69,8 @@ function Header() {
 							href="#main"
 						>
 							Inicio{" "}
-						</MobilIcon>
-						<MobilIcon
+						</MobileIcon>
+						<MobileIcon
 							className={css.mobil__links}
 							onClick={() => {
 								cambiarEstado(!estado);
@@ -78,9 +78,9 @@ function Header() {
 							href="#aboutme"
 						>
 							Perfil
-						</MobilIcon>
+						</MobileIcon>
 
-						<MobilIcon
+						<MobileIcon
 							className={css.mobil__links}
 							onClick={() => {
 								cambiarEstado(!estado);
@@ -89,8 +89,8 @@ function Header() {
 							href="#proyectos"
 						>
 							Proyectos
-						</MobilIcon>
-						<MobilIcon
+						</MobileIcon>
+						<MobileIcon
 							className={css.mobil__links}
 							href="#contacto"
 							onClick={() => {
@@ -99,7 +99,7 @@ function Header() {
 							}}
 						>
 							Contacto{" "}
-						</MobilIcon>
+						</MobileIcon>
 						<div className={css.redes}>
 							{" "}
 							<GithubButton
