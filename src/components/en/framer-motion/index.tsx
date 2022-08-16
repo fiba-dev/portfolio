@@ -3,7 +3,7 @@ import { useRef } from "react";
 import { motion, MotionConfig, useCycle } from "framer-motion";
 import { useDimensions } from "./use-dimensions";
 import { DesktopIcon, MenuToggle, MobileIcon } from "../../ui/buttons";
-import { Navigation } from "./navigation";
+
 import css from "../../es/framer-motion/index.css";
 import { SelectLenguageMobile } from "../../selectLenguage";
 
