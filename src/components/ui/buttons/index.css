@@ -76,13 +76,14 @@
 	box-sizing: content-box;
 	border: solid 2px transparent;
 
-	transition: 1s all ease;
+	transition: ease 0.7s;
 }
 
 .desktop__button:hover {
 	color: rgb(12, 245, 132);
 	border: solid 2px rgb(12, 245, 132);
 	box-shadow: transparent;
+	scale: 1.1;
 }
 .mobil__button {
 	background: transparent;
@@ -108,6 +109,10 @@
 	width: 65px;
 	height: 50px;
 	cursor: pointer;
+	transition: ease 0.5s;
+}
+.flags:hover {
+	scale: 1.3;
 }
 .botonBurger {
 	outline: none;

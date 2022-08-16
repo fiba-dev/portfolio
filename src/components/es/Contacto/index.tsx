@@ -1,6 +1,7 @@
 import React from "react";
 import css from "./index.css";
 import { TypedReactHooksDemo } from "../../ui/typedJs";
+import { motion } from "framer-motion";
 function Contacto() {
 	return (
 		<div className={css.container_contacto} id="contacto">
@@ -9,7 +10,16 @@ function Contacto() {
 					Contacto
 				</TypedReactHooksDemo>
 			</div>
-			<div className={css.div__form}>
+			<motion.div
+				initial={{ opacity: 0, scale: 0.5 }}
+				animate={{ opacity: 1, scale: 1 }}
+				transition={{
+					duration: 0.8,
+					delay: 0.5,
+					ease: [0, 0.71, 0.2, 1.01],
+				}}
+				className={css.div__form}
+			>
 				<a
 					href=" https://wa.me/+5491133180059"
 					target="_blank"
@@ -40,7 +50,7 @@ function Contacto() {
 						className={css.gmail}
 					/>
 				</a>
-			</div>
+			</motion.div>
 		</div>
 	);
 }

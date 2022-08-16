@@ -17,6 +17,7 @@
 .whatsapp {
 	height: 80px;
 	width: 70px;
+	transition: ease 0.5s;
 }
 .whatsapp:hover {
 	height: 110px;
@@ -25,6 +26,7 @@
 .linkedin {
 	height: 70px;
 	align-items: center;
+	transition: ease 0.5s;
 }
 .linkedin:hover {
 	height: 100px;
@@ -32,6 +34,7 @@
 .gmail {
 	height: 70px;
 	width: 75px;
+	transition: ease 0.5s;
 }
 .gmail:hover {
 	height: 95px;

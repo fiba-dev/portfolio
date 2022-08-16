@@ -66,30 +66,30 @@ export const MenuMobil = () => {
 		>
 			<motion.div className={css.background} variants={sidebar}>
 				<motion.ul variants={variantsUl} className={css.backgroundUl}>
-					<motion.li variants={variants} whileHover={{ scale: 1.1 }}>
+					<motion.li variants={variants}>
 						<MobileIcon onClick={() => toggleOpen()} href="#main">
 							Inicio
 						</MobileIcon>
 					</motion.li>
-					<motion.li variants={variants} whileHover={{ scale: 1.1 }}>
+					<motion.li variants={variants}>
 						<MobileIcon onClick={() => toggleOpen()} href="#aboutme">
 							Perfil
 						</MobileIcon>{" "}
 					</motion.li>
-					<motion.li variants={variants} whileHover={{ scale: 1.1 }}>
+					<motion.li variants={variants}>
 						{" "}
 						<MobileIcon onClick={() => toggleOpen()} href="#proyectos">
 							Proyectos
 						</MobileIcon>
 					</motion.li>
-					<motion.li variants={variants} whileHover={{ scale: 1.1 }}>
+					<motion.li variants={variants}>
 						{" "}
 						<MobileIcon onClick={() => toggleOpen()} href="#contacto">
 							Contacto
 						</MobileIcon>
 					</motion.li>
 
-					<motion.li variants={variants} whileHover={{ scale: 1.1 }}>
+					<motion.li variants={variants}>
 						{" "}
 						<SelectLenguageMobile
 							onClick={() => toggleOpen()}
@@ -117,17 +117,17 @@ export const MenuDesktop = () => {
 		>
 			<motion.div className={css.background} variants={sidebar}>
 				<motion.ul variants={variantsUl} className={css.backgroundUl}>
-					<motion.li variants={variants} whileHover={{ scale: 1.1 }}>
+					<motion.li variants={variants}>
 						<DesktopIcon href="#main">Inicio</DesktopIcon>
 					</motion.li>
-					<motion.li variants={variants} whileHover={{ scale: 1.1 }}>
+					<motion.li variants={variants}>
 						<DesktopIcon href="#aboutme">Perfil</DesktopIcon>{" "}
 					</motion.li>
-					<motion.li variants={variants} whileHover={{ scale: 1.1 }}>
+					<motion.li variants={variants}>
 						{" "}
 						<DesktopIcon href="#proyectos">Proyectos</DesktopIcon>
 					</motion.li>
-					<motion.li variants={variants} whileHover={{ scale: 1.1 }}>
+					<motion.li variants={variants}>
 						{" "}
 						<DesktopIcon href="#contacto">Contacto</DesktopIcon>
 					</motion.li>

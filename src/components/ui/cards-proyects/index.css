@@ -148,12 +148,14 @@
 	font-weight: 600;
 	border-radius: 5px;
 	border: none;
+	transition: ease 0.5s;
 }
 .informacion:hover {
-	box-shadow: 0px 0px 2px 2px rgb(12, 245, 132);
-	-webkit-box-shadow: 0px 0px 2px 2px rgb(12, 245, 132);
-	-moz-box-shadow: 0px 0px 2px 2px rgb(12, 245, 132);
-	color: rgb(12, 245, 132);
+	box-shadow: 0px 0px 2px 2px red;
+	-webkit-box-shadow: 0px 0px 2px 2px red;
+	-moz-box-shadow: 0px 0px 2px 2px red;
+	color: red;
+	scale: 1.1;
 }
 
 .button {
@@ -170,6 +172,7 @@
 		width: 500px;
 		height: 750px;
 		border-radius: 10px;
+		transition: ease 0.5s;
 	}
 	.face {
 		height: 100%;
@@ -181,6 +184,7 @@
 		height: 400px;
 		color: #fff;
 		border-radius: 0px 0px 10px 10px;
+		transition: ease 0.5s;
 	}
 	.card_back p {
 		font-size: 23px;
@@ -237,11 +241,5 @@
 		border: none;
 		border-radius: 5px;
 		background: none;
-	}
-	.informacion:hover {
-		box-shadow: 0px 0px 2px 2px red;
-		-webkit-box-shadow: 0px 0px 2px 2px red;
-		-moz-box-shadow: 0px 0px 2px 2px red;
-		color: red;
 	}
 }
