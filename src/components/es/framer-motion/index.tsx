@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useRef } from "react";
-import { motion, MotionConfig, useCycle } from "framer-motion";
+import { motion, MotionConfig, useCycle, useForceUpdate } from "framer-motion";
 import { useDimensions } from "./use-dimensions";
 import { DesktopIcon, MenuToggle, MobileIcon } from "../../ui/buttons";
 import css from "./index.css";
@@ -67,7 +67,12 @@ export const MenuMobil = () => {
 			<motion.div className={css.background} variants={sidebar}>
 				<motion.ul variants={variantsUl} className={css.backgroundUl}>
 					<motion.li variants={variants}>
-						<MobileIcon onClick={() => toggleOpen()} href="#main">
+						<MobileIcon
+							onClick={() => {
+								toggleOpen(), useForceUpdate;
+							}}
+							href="#main"
+						>
 							Inicio
 						</MobileIcon>
 					</motion.li>
@@ -102,6 +107,7 @@ export const MenuMobil = () => {
 		</motion.nav>
 	);
 };
+
 export const MenuDesktop = () => {
 	const [isOpen, toggleOpen] = useCycle(false, true);
 	const containerRef = useRef(null);

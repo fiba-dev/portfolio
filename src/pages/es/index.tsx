@@ -10,39 +10,45 @@ import { AboutMe } from "../../components/es/AboutMe";
 import { SelectLenguageDesktop } from "../../components/selectLenguage";
 import { MenuDesktop, MenuMobil } from "../../components/es/framer-motion";
 import { MenuToggle } from "../../components/ui/buttons";
+import Zoom from "react-reveal/Zoom";
+
 function Home() {
 	return (
 		<div className={css.main} id="main">
 			<div className={css.container}>
-				<div className={css.home__name__div}>
-					<SelectLenguageDesktop></SelectLenguageDesktop>
-
-					<h1 className={css.titulo}>¡Hola Mundo!</h1>
-
-					<div className={css.typed}>
-						<TypedReactHooksDemo velocidad={30} clase={"letra"} loop={false}>
-							Soy Fran
-						</TypedReactHooksDemo>
-						<TypedReactHooksDemo
-							velocidad={20}
-							comenzar={1000}
-							clase={"letra"}
-							loop={false}
-						>
-							WEB DEVELOPER
-						</TypedReactHooksDemo>
-						<TypedReactHooksDemo
-							velocidad={20}
-							comenzar={2000}
-							clase={"letra2"}
-							loop={true}
-						>
-							React.js Css Html Typescript Firebase Vercel Postman Scrum Github
-						</TypedReactHooksDemo>
+				<SelectLenguageDesktop></SelectLenguageDesktop>
+				<Zoom>
+					<div className={css.home__name__div}>
+						{" "}
+						<h1 className={css.titulo}>¡Hola Mundo!</h1>
+						<div className={css.typed}>
+							<TypedReactHooksDemo velocidad={30} clase={"letra"} loop={false}>
+								Soy Fran
+							</TypedReactHooksDemo>
+							<TypedReactHooksDemo
+								velocidad={20}
+								comenzar={1000}
+								clase={"letra"}
+								loop={false}
+							>
+								WEB DEVELOPER
+							</TypedReactHooksDemo>
+							<TypedReactHooksDemo
+								velocidad={20}
+								comenzar={2000}
+								clase={"letra2"}
+								loop={true}
+							>
+								React.js Css Html Typescript Firebase Vercel Postman Scrum
+								Github
+							</TypedReactHooksDemo>
+						</div>
 					</div>
-				</div>
+				</Zoom>
 			</div>
+
 			<AboutMe id="aboutme"></AboutMe>
+
 			<Proyectos></Proyectos>
 
 			<Contacto></Contacto>

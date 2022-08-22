@@ -6,7 +6,14 @@
 		transform: scale(1);
 	}
 } */
-
+.titulo {
+	color: rgb(12, 245, 132);
+	font-size: 45px;
+	text-align: center;
+	font-weight: 600;
+	width: 40%;
+	align-self: center;
+}
 .icons {
 	height: 150px;
 	width: 150px;
@@ -88,10 +95,6 @@
 	justify-content: center;
 	animation-duration: 3s;
 }
-.titulo {
-	animation-name: minToMax;
-	animation-duration: 1s;
-}
 
 .input2 {
 	height: 60px;
@@ -99,11 +102,6 @@
 	margin-bottom: 10px;
 	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
 		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-.titulo {
-	color: whitesmoke;
-	font-size: 45px;
 }
 
 .column {
@@ -119,8 +117,11 @@
 		align-items: center;
 	}
 	.titulo {
-		height: 80px;
+		text-align: center;
+		font-size: 60px;
+		width: 300px;
 	}
+
 	.robot {
 		display: none;
 	}

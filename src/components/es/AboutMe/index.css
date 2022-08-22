@@ -56,6 +56,12 @@
 }
 .titulo {
 	height: 100px;
+	color: rgb(12, 245, 132);
+	font-size: 45px;
+	text-align: center;
+	font-weight: 600;
+	width: 40%;
+	align-self: center;
 }
 .container__column {
 	display: flex;
@@ -104,8 +110,9 @@
 		margin-top: 90px;
 	}
 	.titulo {
-		color: rgb(216, 216, 216);
+		text-align: center;
 		font-size: 60px;
+		width: 300px;
 	}
 	.container__column {
 		display: flex;

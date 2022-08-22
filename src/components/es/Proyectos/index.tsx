@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
 import css from "./index.css";
-
-import { TypedReactHooksDemo } from "../../ui/typedJs";
-import { ProgressPlugin } from "webpack";
 import { CardProyects } from "../../ui/cards-proyects";
 import { obtenerProyectos } from "../../../apiURL";
+import Zoom from "react-reveal/Zoom";
 
 function Proyectos() {
 	let [data, setData] = useState([]);
@@ -25,35 +22,21 @@ function Proyectos() {
 	return (
 		<div className={css.container} id="proyectos">
 			<div className={css.titulo}>
-				<TypedReactHooksDemo
-					velocidad={50}
-					loop={false}
-					className={css.titulo}
-					class="letra3"
-				>
-					Proyectos
-				</TypedReactHooksDemo>
-				<TypedReactHooksDemo
-					velocidad={50}
-					loop={false}
-					className={css.titulo}
-					class="letra3"
-					comenzar={1000}
-				>
-					Realizados
-				</TypedReactHooksDemo>
+				<Zoom className={css.titulo}>Proyectos Realizados</Zoom>
 			</div>
 			<div className={css.home__name__div}>
 				{data.map((r, index) => (
-					<CardProyects
-						title={r.title}
-						pictureURL={r.pictureURL}
-						info={r.info}
-						GitHub={r.GitHub}
-						webPage={r.webPage}
-						key={index}
-						id={r.key}
-					></CardProyects>
+					<Zoom>
+						<CardProyects
+							title={r.title}
+							pictureURL={r.pictureURL}
+							info={r.info}
+							GitHub={r.GitHub}
+							webPage={r.webPage}
+							id={r.key}
+							key={index}
+						></CardProyects>
+					</Zoom>
 				))}
 			</div>
 		</div>

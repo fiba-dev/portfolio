@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import css from "../../es/Proyectos/index.css";
-
+import Zoom from "react-reveal/Zoom";
 import { TypedReactHooksDemo } from "../../ui/typedJs";
 import { ProgressPlugin } from "webpack";
 import { CardProyects } from "../../ui/cards-proyects";
@@ -25,15 +25,11 @@ function Proyects() {
 	return (
 		<div className={css.container} id="proyects">
 			<div className={css.titulo}>
-				<TypedReactHooksDemo
-					velocidad={50}
-					loop={false}
-					className={css.titulo}
-					class="letra3"
-				>
+				<Zoom velocidad={50} loop={false} className={css.titulo} class="letra3">
 					Proyects
-				</TypedReactHooksDemo>
+				</Zoom>
 			</div>
+
 			<div className={css.home__name__div}>
 				{data.map((r, index) => (
 					<CardProyects
@@ -42,8 +38,8 @@ function Proyects() {
 						info={r.info}
 						GitHub={r.GitHub}
 						webPage={r.webPage}
-						key={index}
 						id={r.key}
+						key={index}
 					></CardProyects>
 				))}
 			</div>
