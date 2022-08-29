@@ -5,6 +5,8 @@ import Zoom from "react-reveal/Zoom";
 
 function CardProyects(props) {
 	let claseDiv;
+	console.log("SOY CARDS", props);
+
 	if (props.id % 2 == 0) {
 		claseDiv = css.div1;
 	} else {
@@ -12,7 +14,7 @@ function CardProyects(props) {
 	}
 	return (
 		<div className={claseDiv}>
-			<Zoom>
+			<Zoom key={props.id}>
 				<div className={css.container}>
 					<div className={css.card}>
 						<div className={[css.card_front, css.face].join(" ")}>

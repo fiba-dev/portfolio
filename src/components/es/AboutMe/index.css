@@ -34,8 +34,6 @@
 	height: 91vh;
 	width: 100%;
 	padding-top: 60px;
-
-	background-color: rgba(1, 1, 1, 0.1);
 }
 .column {
 	display: flex;
@@ -44,12 +42,13 @@
 	margin-bottom: 20px;
 	/* animation-name: minToMax;
 	animation-duration: 1s; */
-	background: -webkit-linear-gradient(
-		top,
-		rgba(1, 1, 1, 0.3),
-		rgba(1, 1, 1, 0.3)
-	);
+
+	background-color: rgba(255, 255, 255, 0.1);
+
 	border-radius: 10px;
+	box-shadow: rgb(0 0 0 / 55%) 4px 4px 8px;
+	-webkit-box-shadow: rgb(0 0 0 / 55%) 4px 4px 8px;
+	-moz-box-shadow: rgb(0 0 0 / 55%) 4px 4px 8px;
 }
 .column b {
 	color: rgba(255, 0, 0, 0.9);
@@ -94,7 +93,7 @@
 
 .cv__link:hover {
 	color: rgb(12, 245, 132);
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba(255, 255, 255, 0.1);
 	box-shadow: 0px 0px 2px 2px rgb(12, 245, 132);
 	scale: 1.1;
 }

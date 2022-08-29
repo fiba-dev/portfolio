@@ -26,7 +26,7 @@ function Proyectos() {
 			</div>
 			<div className={css.home__name__div}>
 				{data.map((r, index) => (
-					<Zoom>
+					<Zoom key={r.key}>
 						<CardProyects
 							title={r.title}
 							pictureURL={r.pictureURL}
@@ -34,7 +34,6 @@ function Proyectos() {
 							GitHub={r.GitHub}
 							webPage={r.webPage}
 							id={r.key}
-							key={index}
 						></CardProyects>
 					</Zoom>
 				))}

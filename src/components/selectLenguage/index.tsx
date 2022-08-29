@@ -4,17 +4,17 @@ import css from "./index.css";
 
 export function SelectLenguageDesktop(props) {
 	return (
-		<a onClick={props.onClick} className={css.container_lenguage_desktop}>
+		<div onClick={props.onClick} className={css.container_lenguage_desktop}>
 			<UsaFlag href="/en"></UsaFlag>
 			<SpainFlag href="/"></SpainFlag>
-		</a>
+		</div>
 	);
 }
 export function SelectLenguageMobile(props) {
 	return (
-		<a onClick={props.onClick} className={css.container_lenguage_mobile}>
+		<div onClick={props.onClick} className={css.container_lenguage_mobile}>
 			<UsaFlag href="/en"></UsaFlag>
 			<SpainFlag href="/"></SpainFlag>
-		</a>
+		</div>
 	);
 }

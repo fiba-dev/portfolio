@@ -34,6 +34,9 @@ nav {
 	align-items: center;
 	justify-content: center;
 	z-index: 1;
+	box-shadow: rgb(0 0 0 / 55%) 4px 4px 8px;
+	-webkit-box-shadow: rgb(0 0 0 / 55%) 4px 4px 8px;
+	-moz-box-shadow: rgb(0 0 0 / 55%) 4px 4px 8px;
 }
 .backgroundUl {
 	display: flex;
