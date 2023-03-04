@@ -21,6 +21,7 @@ function Contacto() {
 						<img
 							src="https://res.cloudinary.com/fiba06-dev/image/upload/v1658019259/portfolio/pngwing.com_l0ymyv.png"
 							className={css.whatsapp}
+							loading="lazy"
 						/>
 					</a>
 					<a
@@ -31,6 +32,7 @@ function Contacto() {
 						<img
 							src="https://res.cloudinary.com/fiba06-dev/image/upload/v1658019258/portfolio/pngwing.com_1_lopg2d.png"
 							className={css.linkedin}
+							loading="lazy"
 						/>
 					</a>
 					<a
@@ -41,6 +43,7 @@ function Contacto() {
 						<img
 							src="https://res.cloudinary.com/fiba06-dev/image/upload/v1658019258/portfolio/pngwing.com_2_hg7ytq.png"
 							className={css.gmail}
+							loading="lazy"
 						/>
 					</a>
 				</motion.div>
