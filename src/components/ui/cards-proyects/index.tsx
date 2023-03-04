@@ -11,6 +11,7 @@ function CardProyects(props) {
 					<div className={[css.card_front, css.face].join(" ")}>
 						<a>
 							<img
+								loading="lazy"
 								onClick={props.handlerImage}
 								src={props.pictureURL}
 								className={css.imagen}
