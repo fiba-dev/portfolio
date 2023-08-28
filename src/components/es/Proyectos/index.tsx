@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import css from "./index.css";
 import { CardProyects } from "../../ui/cards-proyects";
 import { obtenerProyectos } from "../../../apiURL";
-import Zoom from "react-reveal/Zoom";
 
 function Proyectos() {
 	let [data, setData] = useState([]);
@@ -21,21 +20,16 @@ function Proyectos() {
 
 	return (
 		<div className={css.container} id="proyectos">
-			{/* <div className={css.titulo}>
-				<Zoom className={css.titulo}>Proyectos Realizados</Zoom>
-			</div> */}
 			<div className={css.home__name__div}>
 				{data.map((r, index) => (
-					<Zoom key={r.key}>
-						<CardProyects
-							title={r.title}
-							pictureURL={r.pictureURL}
-							info={r.info}
-							GitHub={r.GitHub}
-							webPage={r.webPage}
-							id={r.key}
-						></CardProyects>
-					</Zoom>
+					<CardProyects
+						title={r.title}
+						pictureURL={r.pictureURL}
+						info={r.info}
+						GitHub={r.GitHub}
+						webPage={r.webPage}
+						id={r.key}
+					></CardProyects>
 				))}
 			</div>
 		</div>

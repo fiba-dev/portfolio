@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import css from "../../es/Proyectos/index.css";
-import Zoom from "react-reveal/Zoom";
 import { TypedReactHooksDemo } from "../../ui/typedJs";
 import { ProgressPlugin } from "webpack";
 import { CardProyects } from "../../ui/cards-proyects";
