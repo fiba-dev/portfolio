@@ -59,9 +59,9 @@
 	border-radius: 15px;
 }
 .card_back {
-	background-color: rgba(53, 53, 53);
+	background-color: rgba(0, 0, 0, 0.918);
 	width: 0%;
-	color: rgb(216, 216, 216);
+	color: rgb(255, 255, 255);
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -77,9 +77,9 @@
 }
 .card:hover .card_back {
 	width: 100%;
-	box-shadow: 0px 0px 2px 2px rgb(12, 245, 132);
+	/* box-shadow: 0px 0px 2px 2px rgb(12, 245, 132);
 	-webkit-box-shadow: 0px 0px 2px 2px rgb(12, 245, 132);
-	-moz-box-shadow: 0px 0px 2px 2px rgb(12, 245, 132);
+	-moz-box-shadow: 0px 0px 2px 2px rgb(12, 245, 132); */
 }
 
 /* .div1 {
@@ -130,13 +130,13 @@
 }
 .webpage__detalle {
 	font-size: 12px;
-	color: rgb(216, 216, 216);
+	color: rgb(255, 255, 255);
 }
 .informacion {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: rgb(216, 216, 216);
+	color: #ffffff;
 	width: 122px;
 
 	background-size: 0px;
@@ -151,11 +151,7 @@
 	transition: ease 0.5s;
 }
 .informacion:hover {
-	box-shadow: 0px 0px 2px 2px red;
-	-webkit-box-shadow: 0px 0px 2px 2px red;
-	-moz-box-shadow: 0px 0px 2px 2px red;
 	color: red;
-	scale: 1.1;
 }
 
 .button {
@@ -182,7 +178,7 @@
 		position: absolute;
 		bottom: 0px;
 		height: 400px;
-		color: #fff;
+		color: #d8d6d6;
 		border-radius: 0px 0px 10px 10px;
 		transition: ease 0.5s;
 	}
@@ -202,7 +198,7 @@
 		box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
 		-webkit-box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
 		-moz-box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
-		background-color: rgba(73, 73, 73, 0.99);
+		background-color: rgba(251, 251, 251, 0.095);
 		cursor: pointer;
 	}
 
@@ -217,10 +213,10 @@
 		-moz-box-shadow: rgb(0 0 0 / 35%) 4px 4px 8px;
 	}
 	.card:hover p {
-		color: rgb(12, 245, 132);
+		color: rgb(255, 255, 255);
 	}
 	.card:hover h1 {
-		color: rgb(12, 245, 132);
+		color: rgb(255, 255, 255);
 	}
 	.imagen {
 		width: 500px;

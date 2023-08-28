@@ -6,9 +6,6 @@ import Zoom from "react-reveal/Zoom";
 function Contact() {
 	return (
 		<div className={css.container_contacto} id="contact">
-			<div className={css.titulo}>
-				<Zoom>Contact</Zoom>
-			</div>
 			<Zoom>
 				<div className={css.div__form}>
 					<a

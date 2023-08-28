@@ -61,11 +61,7 @@
 	color: whitesmoke;
 }
 .div__form {
-	background: -webkit-linear-gradient(
-		top,
-		rgba(255, 255, 255, 0.1),
-		rgba(255, 255, 255, 0.1)
-	);
+	background: rgba(0, 0, 0, 0.1);
 
 	width: 90vw;
 	height: 50vh;
@@ -76,9 +72,12 @@
 	/* animation-name: minToMax;
 	animation-duration: 1s; */
 	justify-content: space-around;
-	box-shadow: rgb(0 0 0 / 55%) 4px 4px 8px;
-	-webkit-box-shadow: rgb(0 0 0 / 55%) 4px 4px 8px;
-	-moz-box-shadow: rgb(0 0 0 / 55%) 4px 4px 8px;
+	box-shadow: -2px -2px 5px rgba(55, 55, 55, 0.7),
+		2px 2px 5px rgba(55, 55, 55, 0.7);
+	-webkit-box-shadow: -2px -2px 5px rgba(55, 55, 55, 0.7),
+		2px 2px 5px rgba(55, 55, 55, 0.7);
+	-moz-box-shadow: -2px -2px 5px rgba(55, 55, 55, 0.7),
+		2px 2px 5px rgba(55, 55, 55, 0.7);
 }
 
 .input {
@@ -128,8 +127,8 @@
 	}
 
 	.div__form {
-		width: 65vw;
-		height: 50vh;
+		width: 35vw;
+		height: 40vh;
 		display: flex;
 		border-radius: 10px;
 		flex-direction: row;
@@ -145,26 +144,26 @@
 		justify-content: center;
 	}
 	.whatsapp {
-		height: 160px;
-		width: 140px;
+		height: 80px;
+		width: 70px;
 	}
 	.whatsapp:hover {
-		height: 220px;
-		width: 200px;
+		height: 110px;
+		width: 100px;
 	}
 
 	.linkedin {
-		height: 140px;
+		height: 70px;
 	}
 	.linkedin:hover {
-		height: 200px;
+		height: 100px;
 	}
 	.gmail {
-		height: 140px;
-		width: 150px;
+		height: 70px;
+		width: 75px;
 	}
 	.gmail:hover {
-		height: 190px;
-		width: 200px;
+		height: 95px;
+		width: 100px;
 	}
 }

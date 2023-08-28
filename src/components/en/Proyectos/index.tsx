@@ -24,12 +24,6 @@ function Proyects() {
 
 	return (
 		<div className={css.container} id="proyects">
-			<div className={css.titulo}>
-				<Zoom velocidad={50} loop={false} className={css.titulo} class="letra3">
-					Proyects
-				</Zoom>
-			</div>
-
 			<div className={css.home__name__div}>
 				{data.map((r, index) => (
 					<CardProyects

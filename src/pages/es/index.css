@@ -1,7 +1,7 @@
 body {
 	font-family: "Courier New", Courier, monospace;
 	background-size: cover;
-	background-color: rgba(53, 53, 53);
+	background-color: rgb(0, 0, 0);
 	margin: 0px;
 	padding: 0px;
 }
@@ -10,9 +10,8 @@ body {
 }
 
 .container {
-	min-height: 667px;
-	height: 90vh;
-	min-width: 98vw;
+	min-height: 90vh;
+	width: 100%;
 
 	display: flex;
 	flex-direction: column;
@@ -26,7 +25,7 @@ body {
 }
 
 .titulo {
-	color: rgb(12, 245, 132);
+	color: rgb(255, 255, 255);
 	font-size: 45px;
 	text-align: left;
 
@@ -40,8 +39,9 @@ body {
 	display: flex;
 	flex-direction: column;
 	background-color: none;
-	justify-content: space-around;
-	height: 400px;
+	margin-top: 30px;
+	justify-content: space-between;
+	height: 360px;
 	width: 350px;
 	text-align: center;
 	background-color: -webkit-linear-gradient(
@@ -64,6 +64,12 @@ body {
 	-moz-box-shadow: rgb(0 0 0 / 55%) 4px 4px 8px;
 }
 @media (min-width: 1080px) {
+	.container {
+		flex-direction: row;
+		margin-left: 12rem;
+		justify-content: space-between;
+		width: 80vw;
+	}
 	.home__name__div {
 		text-align: center;
 		height: 400px;
@@ -75,8 +81,8 @@ body {
 				rgba(255, 255, 255, 0.1),
 				rgba(255, 255, 255, 0.1)
 			),
-			url("https://res.cloudinary.com/fiba06-dev/image/upload/v1660342595/portfolio/perfil-linkedin-removebg_gdv0zt.png");
-		background-position: right;
+			url("https://res.cloudinary.com/fiba06-dev/image/upload/v1646670365/portfolio/robot_2_1_yrfc1h.png");
+		background-position: left;
 		background-size: contain;
 		background-repeat: no-repeat;
 	}

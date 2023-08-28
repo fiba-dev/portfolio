@@ -76,14 +76,14 @@
 	box-sizing: content-box;
 	border: solid 2px transparent;
 
-	transition: ease 0.7s;
+	transition: ease-in-out 0.7s;
 }
 
 .desktop__button:hover {
-	color: rgb(12, 245, 132);
-	border: solid 2px rgb(12, 245, 132);
+	color: rgba(255, 0, 0, 0.9);
+	/* border: solid 2px rgb(12, 245, 132); */
 	box-shadow: transparent;
-	scale: 1.1;
+	/* scale: 1.1; */
 }
 .mobil__button {
 	background: transparent;
@@ -101,9 +101,9 @@
 	cursor: pointer;
 }
 .mobil__button:hover {
-	color: rgb(12, 245, 132);
+	color: rgba(255, 0, 0, 0.9);
 
-	box-shadow: 0px 0px 2px 2px rgb(12, 245, 132);
+	/* box-shadow: 0px 0px 2px 2px rgb(12, 245, 132); */
 }
 .flags {
 	width: 65px;

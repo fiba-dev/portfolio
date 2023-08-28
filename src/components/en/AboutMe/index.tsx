@@ -5,14 +5,9 @@ import Zoom from "react-reveal/Zoom";
 function AboutMeEn(props) {
 	return (
 		<div className={css.container} id={props.id}>
-			<div className={css.titulo}>
-				{" "}
-				<Zoom>About Me</Zoom>
-			</div>
 			<Zoom>
 				<div className={css.container__column}>
 					<div className={css.column}>
-						<h1>I'm Francisco Ibarrola</h1>
 						<p>
 							{" "}
 							I'm Web Developer in tecnologies like

@@ -5,7 +5,7 @@ import { useDimensions } from "./use-dimensions";
 import { DesktopIcon, MenuToggle, MobileIcon } from "../../ui/buttons";
 import css from "./index.css";
 import { SelectLenguageMobile } from "../../selectLenguage";
-
+import { Particulas } from "../../ui/particles";
 const variants = {
 	open: {
 		y: 0,
@@ -65,6 +65,14 @@ export const MenuMobil = () => {
 			className={css.menuMobil}
 		>
 			<motion.div className={css.background} variants={sidebar}>
+				{isOpen && (
+					<Particulas
+						width={"100vw"}
+						height={"100vh"}
+						value={100}
+						repulse={false}
+					/>
+				)}
 				<motion.ul variants={variantsUl} className={css.backgroundUl}>
 					<motion.li variants={variants}>
 						<MobileIcon
@@ -75,11 +83,6 @@ export const MenuMobil = () => {
 						>
 							Inicio
 						</MobileIcon>
-					</motion.li>
-					<motion.li variants={variants}>
-						<MobileIcon onClick={() => toggleOpen()} href="#aboutme">
-							Perfil
-						</MobileIcon>{" "}
 					</motion.li>
 					<motion.li variants={variants}>
 						{" "}
@@ -102,7 +105,6 @@ export const MenuMobil = () => {
 					</motion.li>
 				</motion.ul>
 			</motion.div>
-
 			<MenuToggle toggle={() => toggleOpen()} />
 		</motion.nav>
 	);
@@ -122,12 +124,17 @@ export const MenuDesktop = () => {
 			className={css.menuDesktop}
 		>
 			<motion.div className={css.background} variants={sidebar}>
+				{isOpen && (
+					<Particulas
+						width="12rem"
+						height="100vh"
+						value={200}
+						repulse={false}
+					/>
+				)}
 				<motion.ul variants={variantsUl} className={css.backgroundUl}>
 					<motion.li variants={variants}>
 						<DesktopIcon href="#main">Inicio</DesktopIcon>
-					</motion.li>
-					<motion.li variants={variants}>
-						<DesktopIcon href="#aboutme">Perfil</DesktopIcon>{" "}
 					</motion.li>
 					<motion.li variants={variants}>
 						{" "}
@@ -139,7 +146,6 @@ export const MenuDesktop = () => {
 					</motion.li>
 				</motion.ul>
 			</motion.div>
-
 			<MenuToggle toggle={() => toggleOpen()} />
 		</motion.nav>
 	);

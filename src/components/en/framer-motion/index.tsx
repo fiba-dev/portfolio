@@ -3,7 +3,7 @@ import { useRef } from "react";
 import { motion, MotionConfig, useCycle } from "framer-motion";
 import { useDimensions } from "./use-dimensions";
 import { DesktopIcon, MenuToggle, MobileIcon } from "../../ui/buttons";
-
+import { Particulas } from "../../ui/particles";
 import css from "../../es/framer-motion/index.css";
 import { SelectLenguageMobile } from "../../selectLenguage";
 
@@ -66,15 +66,18 @@ export const MenuMobilEn = () => {
 			className={css.menuMobil}
 		>
 			<motion.div className={css.background} variants={sidebar}>
+				{isOpen && (
+					<Particulas
+						width={"100vw"}
+						height={"100vh"}
+						value={100}
+						repulse={false}
+					/>
+				)}
 				<motion.ul variants={variantsUl} className={css.backgroundUl}>
 					<motion.li variants={variants} whileHover={{ scale: 1.1 }}>
 						<MobileIcon onClick={() => toggleOpen()} href="#main">
 							Main
-						</MobileIcon>
-					</motion.li>
-					<motion.li variants={variants} whileHover={{ scale: 1.1 }}>
-						<MobileIcon onClick={() => toggleOpen()} href="#aboutme">
-							About Me
 						</MobileIcon>
 					</motion.li>
 					<motion.li variants={variants} whileHover={{ scale: 1.1 }}>
@@ -116,13 +119,19 @@ export const MenuDesktopEn = () => {
 			ref={containerRef}
 			className={css.menuDesktop}
 		>
+			{" "}
 			<motion.div className={css.background} variants={sidebar}>
+				{isOpen && (
+					<Particulas
+						width="12rem"
+						height="100vh"
+						value={200}
+						repulse={false}
+					/>
+				)}
 				<motion.ul variants={variantsUl} className={css.backgroundUl}>
 					<motion.li variants={variants} whileHover={{ scale: 1.1 }}>
 						<DesktopIcon href="#main">Main</DesktopIcon>
-					</motion.li>
-					<motion.li variants={variants} whileHover={{ scale: 1.1 }}>
-						<DesktopIcon href="#aboutme">About Me</DesktopIcon>{" "}
 					</motion.li>
 					<motion.li variants={variants} whileHover={{ scale: 1.1 }}>
 						{" "}
@@ -134,7 +143,6 @@ export const MenuDesktopEn = () => {
 					</motion.li>
 				</motion.ul>
 			</motion.div>
-
 			<MenuToggle toggle={() => toggleOpen()} />
 		</motion.nav>
 	);

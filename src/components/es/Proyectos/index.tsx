@@ -21,9 +21,9 @@ function Proyectos() {
 
 	return (
 		<div className={css.container} id="proyectos">
-			<div className={css.titulo}>
+			{/* <div className={css.titulo}>
 				<Zoom className={css.titulo}>Proyectos Realizados</Zoom>
-			</div>
+			</div> */}
 			<div className={css.home__name__div}>
 				{data.map((r, index) => (
 					<Zoom key={r.key}>

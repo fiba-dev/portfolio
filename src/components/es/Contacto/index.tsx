@@ -7,11 +7,6 @@ function Contacto() {
 	return (
 		<div className={css.container_contacto} id="contacto">
 			<Zoom>
-				<div>
-					<h2 className={css.titulo}>Contacto</h2>
-				</div>
-			</Zoom>
-			<Zoom>
 				<motion.div className={css.div__form}>
 					<a
 						href=" https://wa.me/+5491133180059"

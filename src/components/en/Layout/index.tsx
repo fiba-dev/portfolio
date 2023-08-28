@@ -10,7 +10,6 @@ function LayoutEn(props) {
 			<MenuMobilEn></MenuMobilEn>
 			<MenuDesktopEn></MenuDesktopEn>
 			<Outlet></Outlet>
-			<Particulas></Particulas>
 		</div>
 	);
 }

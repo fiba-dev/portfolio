@@ -41,8 +41,9 @@ function HomeEn() {
 						</div>
 					</div>
 				</Zoom>
+				<AboutMeEn id="aboutme"></AboutMeEn>
 			</div>
-			<AboutMeEn id="aboutme"></AboutMeEn>
+
 			<Proyects></Proyects>
 			<Contact></Contact>
 		</div>

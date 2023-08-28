@@ -10,7 +10,7 @@ function Layout(props) {
 			<MenuMobil></MenuMobil>
 			<MenuDesktop></MenuDesktop>
 			<Outlet></Outlet>
-			<Particulas></Particulas>
+			{/* <Particulas></Particulas> */}
 		</div>
 	);
 }

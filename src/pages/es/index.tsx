@@ -19,7 +19,6 @@ function Home() {
 				<SelectLenguageDesktop></SelectLenguageDesktop>
 				<Zoom>
 					<div className={css.home__name__div}>
-						{" "}
 						<h1 className={css.titulo}>¡Hola Mundo!</h1>
 						<div className={css.typed}>
 							<TypedReactHooksDemo velocidad={30} clase={"letra"} loop={false}>
@@ -45,9 +44,8 @@ function Home() {
 						</div>
 					</div>
 				</Zoom>
+				<AboutMe id="aboutme"></AboutMe>
 			</div>
-
-			<AboutMe id="aboutme"></AboutMe>
 
 			<Proyectos></Proyectos>
 

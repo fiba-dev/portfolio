@@ -7,12 +7,8 @@ function AboutMe(props) {
 	return (
 		<div className={css.container} id={props.id}>
 			<Zoom>
-				<div className={css.titulo}> Sobre mi</div>
-			</Zoom>{" "}
-			<Zoom>
 				<div className={css.container__column}>
 					<div className={css.column}>
-						<h1>Soy Francisco Ibarrola</h1>
 						<p>
 							{" "}
 							Soy Desarrollador web en tecnologías como
