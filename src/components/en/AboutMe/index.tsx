@@ -12,7 +12,7 @@ function AboutMeEn(props) {
 						<b> JAVASCRIPT, React.js, Node.js, HTML, CSS</b>. With knowledge in
 						Firebase, Express, Next.js, Vercel, Heroku, Postgress, Dropbox,
 						Airtable, Cloudinary, Contenful, Mapbox, Algolia,
-						<b>Excel.js,PdfKit,Moment.js</b>. Documentation using
+						<b> Excel.js, PdfKit, Moment.js</b>. Documentation using
 						<b> Postman</b>. Version control in
 						<b> Github, GitLab</b> and working whit agile methodologies{" "}
 						<b>(SCRUM)</b>
