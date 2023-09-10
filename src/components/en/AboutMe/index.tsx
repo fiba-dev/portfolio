@@ -19,7 +19,6 @@ function AboutMeEn(props) {
 					</p>
 				</div>
 				<a
-					target="_blank"
 					className={css.cv__link}
 					href="https://drive.google.com/uc?export=download&id=1XF7igf8YJhlMDPCrNVrB1v4hZescssNU"
 				>
