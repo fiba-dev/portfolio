@@ -23,14 +23,7 @@ function Home() {
 						<TypedReactHooksDemo velocidad={30} clase={"letra"} loop={false}>
 							Soy Fran
 						</TypedReactHooksDemo>
-						<TypedReactHooksDemo
-							velocidad={20}
-							comenzar={1000}
-							clase={"letra"}
-							loop={false}
-						>
-							WEB DEVELOPER
-						</TypedReactHooksDemo>
+
 						<TypedReactHooksDemo
 							velocidad={20}
 							comenzar={2000}

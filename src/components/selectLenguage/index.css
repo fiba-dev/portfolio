@@ -5,13 +5,32 @@
 	top: 10px;
 	display: flex;
 	flex-direction: row;
-
+	align-items: center;
+	justify-content: center;
 	gap: 20px;
+	margin-top: 40px;
 	right: 10px;
 	width: 140px;
 	height: 70px;
+	user-select: none; /* Evita que el contenido se pueda seleccionar */
+	-webkit-user-select: none; /* Para navegadores basados en WebKit (Safari, Chrome) */
+	-moz-user-select: none; /* Para navegadores basados en Gecko (Firefox) */
+	-ms-user-select: none; /* Para versiones antiguas de Microsoft Edge */
 }
-
+.lenguage {
+	font-size: 36px;
+	font-weight: 600;
+	text-decoration: none;
+	transition: ease-in-out 0.5s;
+	color: white;
+	user-select: none; /* Evita que el contenido se pueda seleccionar */
+	-webkit-user-select: none; /* Para navegadores basados en WebKit (Safari, Chrome) */
+	-moz-user-select: none; /* Para navegadores basados en Gecko (Firefox) */
+	-ms-user-select: none; /* Para versiones antiguas de Microsoft Edge */
+}
+.lenguage:hover {
+	color: red;
+}
 @media (min-width: 1080px) {
 	.container_lenguage_mobile {
 		display: none;
@@ -21,7 +40,7 @@
 		top: 10px;
 		display: flex;
 		flex-direction: row;
-
+		align-items: center;
 		gap: 20px;
 		right: 10px;
 		width: 200px;

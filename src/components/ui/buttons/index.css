@@ -80,9 +80,10 @@
 }
 
 .desktop__button:hover {
-	color: rgba(255, 0, 0, 0.9);
-	/* border: solid 2px rgb(12, 245, 132); */
+	color: rgba(0, 0, 0, 0.9);
+	border: solid 2px rgb(255, 255, 255);
 	box-shadow: transparent;
+	background-color: rgb(255, 255, 255);
 	/* scale: 1.1; */
 }
 .mobil__button {

@@ -5,16 +5,24 @@ import css from "./index.css";
 export function SelectLenguageDesktop(props) {
 	return (
 		<div onClick={props.onClick} className={css.container_lenguage_desktop}>
-			<UsaFlag href="/en"></UsaFlag>
-			<SpainFlag href="/"></SpainFlag>
+			<a className={css.lenguage} href="/en">
+				EN
+			</a>
+			<a className={css.lenguage} href="/">
+				ES
+			</a>
 		</div>
 	);
 }
 export function SelectLenguageMobile(props) {
 	return (
 		<div onClick={props.onClick} className={css.container_lenguage_mobile}>
-			<UsaFlag href="/en"></UsaFlag>
-			<SpainFlag href="/"></SpainFlag>
+			<a className={css.lenguage} href="/en">
+				EN
+			</a>
+			<a className={css.lenguage} href="/">
+				ES
+			</a>
 		</div>
 	);
 }
