@@ -195,11 +195,14 @@
 		align-items: center;
 		justify-content: center;
 	}
+	.card:hover .face,
 	.card:hover .card_back {
-		background-color: rgba(255, 255, 255, 0.023);
-		box-shadow: 0px 0px 5px 1px rgb(255, 255, 255);
+		background-color: #2a2a2a;
+		box-shadow: 0px 0px 0px 1px #9a9a9a;
+		/* border: solid 1px #788fa5; */
 		cursor: pointer;
 	}
+
 	.informacion {
 		color: rgb(255, 255, 255);
 		background-color: transparent;
@@ -216,9 +219,9 @@
 		background-color: rgba(255, 0, 0, 0.9);
 	}
 	.card .informacion:hover {
+		transition: ease-in-out 0.3s;
 		color: rgb(0, 0, 0);
 		background-color: white;
-		box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.9);
 	}
 
 	/* .card:hover .card_front {

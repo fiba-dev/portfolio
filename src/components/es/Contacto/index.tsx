@@ -8,7 +8,7 @@ function Contacto() {
 		<div className={css.container_contacto} id="contacto">
 			<motion.div className={css.div__form}>
 				<a
-					href=" https://wa.me/+5491133180059"
+					href=" https://wa.me/+59167306165"
 					target="_blank"
 					className={css.icons}
 				>
