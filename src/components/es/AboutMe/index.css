@@ -51,7 +51,7 @@
 	-moz-box-shadow: rgb(0 0 0 / 55%) 4px 4px 8px;
 }
 .column b {
-	color: rgba(255, 0, 0, 0.9);
+	color: #ffdb15;
 }
 
 .titulo {
@@ -81,8 +81,8 @@
 	padding: 10px;
 
 	border: none;
-	color: rgb(255, 255, 255);
-	background-color: rgba(255, 0, 0, 0.9);
+	color: rgb(0, 0, 0);
+	background-color: #ffdb15;
 	text-decoration: none;
 	font-size: 20px;
 	font-weight: 700;
@@ -93,9 +93,9 @@
 }
 
 .cv__link:hover {
-	color: rgb(0, 0, 0);
-	background-color: white;
-	box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.9);
+	color: #ffdb15;
+	background-color: rgb(0, 0, 0);
+	box-shadow: 0px 0px 4px 4px #ffdb15;
 }
 @media (min-width: 1024px) and (min-height: 500px) {
 	.container {

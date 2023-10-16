@@ -81,9 +81,9 @@
 
 .desktop__button:hover {
 	color: rgba(0, 0, 0, 0.9);
-	border: solid 2px rgb(255, 255, 255);
+	border: solid 2px#ffdb15;
 	box-shadow: transparent;
-	background-color: rgb(255, 255, 255);
+	background-color: #ffdb15;
 	/* scale: 1.1; */
 }
 .mobil__button {
@@ -102,7 +102,7 @@
 	cursor: pointer;
 }
 .mobil__button:hover {
-	color: rgba(255, 0, 0, 0.9);
+	color: #ffdb15;
 
 	/* box-shadow: 0px 0px 2px 2px rgb(12, 245, 132); */
 }
