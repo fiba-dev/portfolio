@@ -51,7 +51,7 @@
 	border-radius: 10px;
 	height: 45px;
 	width: 45px;
-	fill: rgb(216, 216, 216);
+	fill: rgb(255, 255, 255);
 }
 .burger__button:hover {
 	fill: rgb(12, 245, 132);
@@ -63,7 +63,7 @@
 	justify-items: center;
 	height: 40px;
 	text-decoration: none;
-	color: rgb(216, 216, 216);
+	color: rgb(255, 255, 255);
 	font-size: 1.3rem;
 	font-weight: bold;
 	margin-right: 10px;
@@ -81,9 +81,9 @@
 
 .desktop__button:hover {
 	color: rgba(0, 0, 0, 0.9);
-	border: solid 2px#ffdb15;
+	border: solid 2px #ffffff;
 	box-shadow: transparent;
-	background-color: #ffdb15;
+	background-color: #ffffff;
 	/* scale: 1.1; */
 }
 .mobil__button {
@@ -91,7 +91,7 @@
 	font-family: "Courier New", Courier, monospace;
 	text-decoration: none;
 	border-radius: 8px;
-	color: rgb(216, 216, 216);
+	color: rgb(255, 255, 255);
 	padding: 0.2em 0.2em;
 	font-size: 40px;
 	font-weight: 600;
@@ -102,7 +102,7 @@
 	cursor: pointer;
 }
 .mobil__button:hover {
-	color: #ffdb15;
+	color: #ffffff;
 
 	/* box-shadow: 0px 0px 2px 2px rgb(12, 245, 132); */
 }

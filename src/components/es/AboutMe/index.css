@@ -27,9 +27,11 @@
 .container {
 	display: flex;
 	flex-direction: column;
-	color: rgb(255, 255, 255);
+	color: rgb(10, 10, 10);
 	align-items: center;
 	justify-content: flex-start;
+	font-family: "Open Sans";
+	font-size: 16px;
 	/* min-height: 577px;
 	height: 91vh; */
 	/* width: 100%; */
@@ -46,12 +48,12 @@
 	background-color: rgba(255, 255, 255, 0);
 
 	border-radius: 10px;
-	box-shadow: rgb(0 0 0 / 55%) 4px 4px 8px;
+	/* box-shadow: rgb(0 0 0 / 55%) 4px 4px 8px;
 	-webkit-box-shadow: rgb(0 0 0 / 55%) 4px 4px 8px;
-	-moz-box-shadow: rgb(0 0 0 / 55%) 4px 4px 8px;
+	-moz-box-shadow: rgb(0 0 0 / 55%) 4px 4px 8px; */
 }
 .column b {
-	color: #ffdb15;
+	/*color: #ffdb15;*/
 }
 
 .titulo {
@@ -81,21 +83,24 @@
 	padding: 10px;
 
 	border: none;
-	color: rgb(0, 0, 0);
-	background-color: #ffdb15;
+	color: rgb(255, 255, 255);
+	background-color: #000000;
 	text-decoration: none;
 	font-size: 20px;
 	font-weight: 700;
-	width: 180px;
-
+	width: 200px;
+	border: solid 1px white;
 	border-radius: 10px;
-	transition: 0.5s ease;
+	transition: 0.5s ease-in;
 }
 
 .cv__link:hover {
-	color: #ffdb15;
-	background-color: rgb(0, 0, 0);
-	box-shadow: 0px 0px 4px 4px #ffdb15;
+	color: #000000;
+	background-color: rgb(255, 255, 255);
+	border: solid 1px #000000;
+	/* -webkit-box-shadow: 1px 0px 8px 3px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 1px 0px 8px 3px rgba(0, 0, 0, 0.75);
+	box-shadow: 1px 0px 8px 3px rgba(0, 0, 0, 0.75); */
 }
 @media (min-width: 1024px) and (min-height: 500px) {
 	.container {
@@ -105,7 +110,7 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		color: rgb(255, 255, 255);
+		color: rgb(10, 10, 10);
 	}
 	.titulo {
 		text-align: center;

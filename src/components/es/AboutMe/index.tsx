@@ -12,11 +12,9 @@ function AboutMe(props) {
 						Soy Desarrollador web en tecnologías como
 						<b> JAVASCRIPT, React.js, Node.js, HTML, CSS</b>. Con conocimiento
 						en Firebase, Express, Next.js, Vercel, Heroku, Postgress, Dropbox,
-						Airtable, Cloudinary, Contenful, Mapbox, Algolia,
-						<b> Excel.js, PdfKit, Moment.js</b>. Documentación usando{" "}
-						<b> Postman</b>. Control de Versiones en
-						<b> Github, GitLab</b> y trabajando con metodologías Agiles
-						<b>(SCRUM)</b>
+						Airtable, Cloudinary, Contenful, Mapbox, Algolia, Excel.js, PdfKit,
+						Moment.js. Documentación usando Postman. Control de Versiones en
+						Github, GitLab y trabajando con metodologías Agiles (SCRUM)
 					</p>
 				</div>
 				<a
