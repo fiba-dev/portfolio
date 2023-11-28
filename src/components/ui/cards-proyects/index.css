@@ -169,35 +169,40 @@
 	.card {
 		position: relative;
 		width: 500px;
-		height: 750px;
+		height: 350px;
 		border-radius: 10px;
 		transition: ease 0.5s;
 	}
-	.face {
+	/* .face {
 		height: 100%;
-	}
+	} */
 	.card_back {
-		width: 100%;
+		width: 0%;
 		position: absolute;
 		bottom: 0px;
-		height: 400px;
+		height: 350px;
 		color: #000000;
-		border-radius: 0px 0px 10px 10px;
-		transition: ease-in-out 0.7s;
+		border-radius: 10px;
+		transition: ease-in-out 0.5s;
 		background-color: rgb(255, 255, 255);
+		overflow: hidden; /* Oculta el contenido que desborde */
 	}
+
 	.card_back p {
 		font-size: 20px;
 	}
+
 	.card_back h1 {
 		font-size: 30px;
 	}
+
 	.container {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 	}
+
 	.card:hover .face,
 	.card:hover .card_back {
 		background-color: #ffffff;
@@ -205,12 +210,21 @@
 			0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
 			0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
 			0 100px 80px rgba(0, 0, 0, 0.12);
-		/* border: solid 1px #788fa5; */
 		cursor: pointer;
 	}
 
+	.card_back.animating {
+		animation: expandWidth 1s ease-in;
+	}
+
+	@keyframes expandWidth {
+		100% {
+			width: 100%;
+		}
+	}
+
 	.informacion {
-		color: rgb(0, 0, 0);
+		color: rgb(255, 255, 255);
 
 		background-color: transparent;
 		width: 180px;
@@ -221,18 +235,18 @@
 		text-align: center;
 		border: none;
 		border-radius: 5px;
-		border: solid 1px rgba(0, 0, 0, 0);
+		border: solid 1px rgba(255, 255, 255, 0);
 	}
 	.card:hover .informacion {
-		background-color: rgb(32, 32, 32);
-		color: #ffffff;
-		border: solid 1px white;
+		background-color: rgb(255, 255, 255);
+		color: #000000;
+		border: solid 1px rgb(0, 0, 0);
 	}
 	.card .informacion:hover {
-		transition: ease-in-out 0.3s;
-		color: black;
-		background-color: #ffffff;
-		border: solid 1px black;
+		transition: ease-in-out 0.5s;
+		color: rgb(255, 253, 253);
+		background-color: #000000;
+		border: solid 1px rgb(0, 0, 0);
 	}
 
 	/* .card:hover .card_front {
@@ -242,7 +256,7 @@
 	} */
 
 	.card:hover p {
-		color: rgb(0, 0, 0);
+		color: rgb(28, 28, 28);
 	}
 	.card:hover h1 {
 		color: rgb(0, 0, 0);
