@@ -25,6 +25,7 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"@vercel/analytics": "^1.1.1",
 		"animate.css": "^4.1.1",
 		"cross-env": "^7.0.3",
 		"css": "^3.0.0",
