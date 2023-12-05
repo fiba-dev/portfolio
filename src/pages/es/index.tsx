@@ -10,10 +10,12 @@ import { AboutMe } from "../../components/es/AboutMe";
 import { SelectLenguageDesktop } from "../../components/selectLenguage";
 import { MenuDesktop, MenuMobil } from "../../components/es/framer-motion";
 import { MenuToggle } from "../../components/ui/buttons";
+import { Analytics } from "@vercel/analytics/react";
 
 function Home() {
 	return (
 		<div className={css.main} id="main">
+			<Analytics />
 			<div className={css.container}>
 				<SelectLenguageDesktop></SelectLenguageDesktop>
 

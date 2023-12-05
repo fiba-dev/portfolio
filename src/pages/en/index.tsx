@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import css from "../es/index.css";
-
+import { Analytics } from "@vercel/analytics/react";
 import { TypedReactHooksDemo } from "../../components/ui/typedJs";
 import { Particulas } from "../../components/ui/particles";
 import { Contact } from "../../components/en/Contact";
@@ -11,6 +11,7 @@ import { SelectLenguageDesktop } from "../../components/selectLenguage";
 function HomeEn() {
 	return (
 		<div className={css.main} id="main">
+			<Analytics />
 			<SelectLenguageDesktop></SelectLenguageDesktop>
 			<div className={css.container}>
 				<div className={css.home__name__div}>
